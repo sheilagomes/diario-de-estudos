@@ -1,7 +1,6 @@
 # Python
 
-[Markdown](https://guides.github.com/features/mastering-markdown/)
-![Logo do python](https://github.com/sheilagomes/diario-de-estudos/Python/python-logo.png)
+![Logo do python](https://github.com/sheilagomes/diario-de-estudos/blob/main/Python/python-logo.png)
 
 [Documentação oficial](https://docs.python.org/3/)
 
@@ -20,3 +19,5 @@
 ## Referências
 * [Automate the boring stuff](https://automatetheboringstuff.com)
 * [Locust](locust.io/): Ferramenta de Testes de Performance escrita em python
+
+[Markdown](https://guides.github.com/features/mastering-markdown/)

@@ -1,7 +1,6 @@
 # Java
 
-[Markdown](https://guides.github.com/features/mastering-markdown/)
-![Logo do Java](https://github.com/sheilagomes/diario-de-estudos/Java/java-logo.jpg)
+![Logo do Java](https://github.com/sheilagomes/diario-de-estudos/blob/main/Java/java-logo.png)
 
 [Documentação oficial](https://docs.oracle.com/en/java/)
 
@@ -139,24 +138,26 @@
 
 
 ## Cursos em vídeo
-[Curso completo DevDojo - parei na aula 33](https://www.youtube.com/watch?v=L151aRhoNSM&list=PL62G310vn6nHrMr1tFLNOYP_c73m6nAzL&index=34)
-[FCC Java - Primeiros 22min conceitos](https://www.youtube.com/watch?v=grEKMHGYyns)
-[Guanabara Java](https://youtu.be/xHgnlic7fj8?list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR)
+* [Curso completo DevDojo - parei na aula 33](https://www.youtube.com/watch?v=L151aRhoNSM&list=PL62G310vn6nHrMr1tFLNOYP_c73m6nAzL&index=34)
+* [FCC Java - Primeiros 22min conceitos](https://www.youtube.com/watch?v=grEKMHGYyns)
+* [Guanabara Java](https://youtu.be/xHgnlic7fj8?list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR)
 
 ## Tutoriais em vídeo
-[Figma](https://www.youtube.com/watch?v=NB1mn2YVF8Q&feature=youtu.be)
-[Tetris em Java - 1](https://www.guj.com.br/t/tetris-em-java/100858)
-[Tetris em Java - 2](https://www.youtube.com/watch?v=KjEaD0KyL0w)
-[Tetris em Java - 3](http://zetcode.com/tutorials/javagamestutorial/tetris/)
-[Pattern factory - 1](https://www.devmedia.com.br/como-usar-o-pattern-factory-na-plataforma-java-ee/32814)
-[Pattern factory - 2](https://en.wikipedia.org/wiki/Factory_method_pattern#Java)
+* [Figma](https://www.youtube.com/watch?v=NB1mn2YVF8Q&feature=youtu.be)
+* [Tetris em Java - 1](https://www.guj.com.br/t/tetris-em-java/100858)
+* [Tetris em Java - 2](https://www.youtube.com/watch?v=KjEaD0KyL0w)
+* [Tetris em Java - 3](http://zetcode.com/tutorials/javagamestutorial/tetris/)
+* [Pattern factory - 1](https://www.devmedia.com.br/como-usar-o-pattern-factory-na-plataforma-java-ee/32814)
+* [Pattern factory - 2](https://en.wikipedia.org/wiki/Factory_method_pattern#Java)
 
 ## Tutoriais em texto
-[Apostila JavaWeb Caellum](https://www.caelum.com.br/apostila-java-web/servlets/#mapeando-uma-servlet-no-webxml)
-[Apostila Desenvolvendo na prático com Spring e testes](https://www.caelum.com.br/apostila-java-testes-spring-design-patterns/)
-[Oracle](https://docs.oracle.com/javase/tutorial/java/concepts/index.html)
+* [Apostila JavaWeb Caellum](https://www.caelum.com.br/apostila-java-web/servlets/#mapeando-uma-servlet-no-webxml)
+* [Apostila Desenvolvendo na prático com Spring e testes](https://www.caelum.com.br/apostila-java-testes-spring-design-patterns/)
+* [Oracle](https://docs.oracle.com/javase/tutorial/java/concepts/index.html)
 
 ## Para ler e consultar:
-[Medium do Devs Javagirl](https://medium.com/devs-javagirl)
-[Prototipação básica online](https://wireframe.cc/)]
-[Figma pra prototipação mais detalhada](https://www.figma.com/files/recent)
+* [Medium do Devs Javagirl](https://medium.com/devs-javagirl)
+* [Prototipação básica online](https://wireframe.cc/)]
+* [Figma pra prototipação mais detalhada](https://www.figma.com/files/recent)
+
+[Markdown](https://guides.github.com/features/mastering-markdown/)
