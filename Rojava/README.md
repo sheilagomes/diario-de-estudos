@@ -1,8 +1,8 @@
 # Rojava
 
-[Markdown](https://guides.github.com/features/mastering-markdown/)
+![Mapa de Rojava](https://github.com/sheilagomes/diario-de-estudos/blob/main/Rojava/Rojava.svg)
 
-![mapa de Rojava](https://github.com/sheilagomes/diario-de-estudos/blob/main/Rojava/Rojava.svg)
+![Mapa da Síria no mundo](https://github.com/sheilagomes/diario-de-estudos/blob/main/Rojava/Siria.svg)
 
 ## O que é
 
@@ -21,6 +21,9 @@ Contrato social - procurar
 
 ## Vídeos
 [Ótimo vídeo com Maria Florencia Guarche - DEMOCRACIA SEM ESTADO E LUTA ANTIPATRIARCAL: O EXEMPLO DE ROJAVA](https://youtu.be/NRZrmgBbsio)
+
 *Na Síria, na Administração Autônoma do Noroeste conhecida pela denominação curda de Rojava, desde 2014 vem se  desenvolvendo em meio à guerra civil uma das mais avançadas experiências de poder popular, auto-governo, luta antipatriarcal e luta antirracista. 
 Ameaçada desde o fim de 2019 pela invasão turca e agora pela pandemia, a luta do povo curdo foi fundamental para a destruição do Estado Islâmico e para barrar o genocídio contra as populações yazidis e outras. Neste processo de luta os curdos avançaram uma organização autônoma baseada no Confederalismo Democrático, na centralidade da ação política das mulheres e na luta antipatriarcal.
 É sobre esta experiência e o que ela pode nos ensinar para a luta anticapitalista, antiracista e antipatriarcal no Brasil que convidamos todos a participar deste debate.*
+
+[Markdown](https://guides.github.com/features/mastering-markdown/)
