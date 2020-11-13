@@ -20,4 +20,4 @@
 * [Automate the boring stuff](https://automatetheboringstuff.com)
 * [Locust](locust.io/): Ferramenta de Testes de Performance escrita em python
 
-[Markdown](https://guides.github.com/features/mastering-markdown/)
+[Markdown](https://guides.github.com/features/mastering-markdown/) / [ResizeImage](https://resizeimage.net/)

@@ -26,4 +26,4 @@ Contrato social - procurar
 Ameaçada desde o fim de 2019 pela invasão turca e agora pela pandemia, a luta do povo curdo foi fundamental para a destruição do Estado Islâmico e para barrar o genocídio contra as populações yazidis e outras. Neste processo de luta os curdos avançaram uma organização autônoma baseada no Confederalismo Democrático, na centralidade da ação política das mulheres e na luta antipatriarcal.
 É sobre esta experiência e o que ela pode nos ensinar para a luta anticapitalista, antiracista e antipatriarcal no Brasil que convidamos todos a participar deste debate.*
 
-[Markdown](https://guides.github.com/features/mastering-markdown/)
+[Markdown](https://guides.github.com/features/mastering-markdown/) / [ResizeImage](https://resizeimage.net/)

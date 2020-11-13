@@ -12,6 +12,7 @@
 ### Intellij
 * sout e enter faz a expressão de impressão pulando linha
 * psvd e enter faz a expressão de início de programa principal
+* Ctrl + Shift + A pra abrir ações
 
 ## Dicas da linguagem
 * Os números no Java são como uma roleta: se somar 1 ao limite, volta como negativos (fecha o círculo)
@@ -160,4 +161,4 @@
 * [Prototipação básica online](https://wireframe.cc/)]
 * [Figma pra prototipação mais detalhada](https://www.figma.com/files/recent)
 
-[Markdown](https://guides.github.com/features/mastering-markdown/)
+[Markdown](https://guides.github.com/features/mastering-markdown/) / [ResizeImage](https://resizeimage.net/)
