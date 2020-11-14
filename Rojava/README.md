@@ -18,6 +18,7 @@ Contrato social - procurar
 * [O futuro suspenso de Rojava](https://diplomatique.org.br/o-futuro-suspenso-de-rojava/)
 * [Os curdos e Rojava: Uma revolução democrática sob o ataque da Turquia](https://www.cartamaior.com.br/?/Editoria/Pelo-Mundo/Os-curdos-e-Rojava-Uma-revolucao-democratica-sob-o-ataque-da-Turquia/6/45473)
 * [“A Luta Não é Pelo Martírio, Mas Pela Vida”](https://crimethinc.com/2020/02/20/a-luta-nao-e-pelo-martirio-mas-pela-vida-um-debate-critico-sobre-a-luta-armada-com-a-guerrilha-anarquista-em-rojava)
+* O municipalismo libertário e a revolução em Rojava - link para pdf
 
 ## Vídeos
 [Ótimo vídeo com Maria Florencia Guarche - DEMOCRACIA SEM ESTADO E LUTA ANTIPATRIARCAL: O EXEMPLO DE ROJAVA](https://youtu.be/NRZrmgBbsio)
