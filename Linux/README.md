@@ -14,7 +14,8 @@ kill 13881 ([número do processo](https://superuser.com/questions/117913/ps-aux-
 * Para deixar janelas de programas pretas no ubuntu, mudar o programa ubuntu.json de Yaru pra Yaru-dark
 
 * Criar atalho de programa em qualquer lugar e depois copiar em usr/share/appications:
-  Dropbox no Linux:
+    * Dropbox no Linux:
+  ```
   [Desktop Entry]
   Name=Dropbox
   GenericName=File Synchronizer
@@ -26,8 +27,9 @@ kill 13881 ([número do processo](https://superuser.com/questions/117913/ps-aux-
   Categories=Network;FileTransfer;
   Keywords=file;synchronization;sharing;collaboration;cloud;storage;backup;
   StartupNotify=false
-
-  OmegaT no Linux:
+  ```
+  * OmegaT no Linux:
+  ```
   [Desktop Entry]
   Name=OmegaT
   GenericName=Ferramenta de tradução
@@ -39,28 +41,22 @@ kill 13881 ([número do processo](https://superuser.com/questions/117913/ps-aux-
   Categories=Translation;
   Keywords=file;translation;
   StartupNotify=false
-
+```
 * Para copiar em usr/share/applications abrir terminal na pasta e digitar:
-sudo cp [local de origem] [local de destino]
-
-* This command will find all occurrences of "word" in all the files under the current directory (or subdrectories): grep -r word *
-
-* ImageMagick transparent background: convert image.gif -transparent white result.gif (or use result.png)
-
-* ImageMagick transparent background if not perfectly white: convert image.gif -fuzz 10% -transparent white result.gif
-
+`sudo cp [local de origem] [local de destino]`
+* This command will find all occurrences of "word" in all the files under the current directory (or subdrectories): 
+`grep -r word *`
+* ImageMagick transparent background:
+`convert image.gif -transparent white result.gif (or use result.png)`
+* ImageMagick transparent background if not perfectly white:
+`convert image.gif -fuzz 10% -transparent white result.gif`
 * [Postgre](https://www.hostinger.com.br/tutoriais/instalar-postgresql-ubuntu)
-
 * [Wine](https://www.edivaldobrito.com.br/versao-mais-recente-do-wine-no-ubuntu/)
-
 * [Inicialização do repositório no Github](https://kbroman.org/github_tutorial/pages/init.html)
-
 * [Instalar Java JDK](https://linuxize.com/post/install-java-on-ubuntu-18-04/)
-
-* Para imprimir em um arquivo tudo o que está nos subdiretórios ls -R > filename1
-
+* Para imprimir em um arquivo tudo o que está nos subdiretórios 
+`ls -R > filename1`
 * Ver arquivos ocultos em uma pasta: Ctrl + H
-
 * [Instalar Paint no Linux](https://www.vivaolinux.com.br/dica/Instalar-MS-Paint-no-Linux)
 
 * [Discord](https://www.edivaldobrito.com.br/discord-no-ubuntu-debian-mint/)

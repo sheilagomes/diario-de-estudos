@@ -20,4 +20,9 @@
 * [Automate the boring stuff](https://automatetheboringstuff.com)
 * [Locust](locust.io/): Ferramenta de Testes de Performance escrita em python
 
+## Outras informações
+* [Membro da Python Software Foundation](https://www.python.org/psf/membership/)
+* [O que é a PSF?](https://carolinedantas.com/tutorial/2020/05/21/psf_ptbr.html)
+
+
 [Markdown](https://guides.github.com/features/mastering-markdown/) / [ResizeImage](https://resizeimage.net/)
