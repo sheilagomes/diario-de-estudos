@@ -8,6 +8,7 @@
 * [O problema dos três corpos](https://www.goodreads.com/book/31673253-o-problema-dos-tr-s-corpos/questions), de Liu Cixin
 * [A floresta sombria](), de Liu Cixin
 * [O fim da morte](), de Liu Cixin
+* [Lovecraft Country](), de Matt Ruff
 * [Humankind], de Rutger Bregnam
 * [The Vanishing Half], de Brit Bennett
 * [O Assassinato do Comendador 1], de Haruki Murakami
@@ -15,7 +16,6 @@
 * [Agile Testing: A Practical Guide for Testers and Agile Teams], de Lisa Crispin e Janet Gregory
 
 ## Ler
-
-
+China Mieville
 
 [Markdown](https://guides.github.com/features/mastering-markdown/) / [ResizeImage](https://resizeimage.net/)
