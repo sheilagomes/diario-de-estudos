@@ -15,21 +15,23 @@
 * Ctrl + Shift + A pra abrir ações
 
 ## Dicas da linguagem
+* Boa prática ao nomear métodos é começar com verbo: exibirAutonomia()
 * Os números no Java são como uma roleta: se somar 1 ao limite, volta como negativos (fecha o círculo)
 * Se usar static antes da declaração de variável dentro de uma classe, a variável é global e funcionará independente das instâncias.
 * O super indica uma variável que vem de uma classe superior (quando é usado o extends, por ex.)
-* The name of the java file must match the class name
-	MyClass.java
-	public class MyClass {
-	  public static void main(String[] args) {
-	    System.out.println("Hello World");
-	  }
-	}
-* Java is case-sensitive. The standard is to use first capital for classes and first lowercase for attributes, variables and methods. All lowercase denotes a package name and all uppercase, a constant name.
-* Every Java program has a class name which must match the filename, and that every program must contain the main() method.
-* The main() method is required and you will see it in every Java program
-* Single-line comments start with two forward slashes (//).
-* Multi-line comments start with /* and ends with */.
+* O nome do arquivo java deve corresponder ao nome da classe:
+
+    MyClass.java
+    public class MyClass {
+        public static void main(String[] args) {
+            System.out.println("Hello World");
+        }
+    }
+
+* O Java diferencia maiúsculas de minúsculas. O padrão é usar primeira maiúscula para classes e primeira minúscula para atributos, variáveis ​​e métodos. Usar todas as letras minúsculas indica um nome de pacote e todas as letras maiúsculas, um nome de constante.
+* Todo programa Java tem um nome de classe que deve corresponder ao nome do arquivo e todo programa deve conter o método main().
+* Comentários de linha única começam com duas barras (//).
+* Comentários de várias linhas começam com /* e terminam com */.
 - To create a variable, you must specify the type and assign it a value: 
 	int myNum = 15;
 	float myFloatNum = 5.99f;
