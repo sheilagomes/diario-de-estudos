@@ -20,14 +20,14 @@
 * Se usar static antes da declaração de variável dentro de uma classe, a variável é global e funcionará independente das instâncias.
 * O super indica uma variável que vem de uma classe superior (quando é usado o extends, por ex.)
 * O nome do arquivo java deve corresponder ao nome da classe:
-'''
+```
 MyClass.java
 public class MyClass {
 	public static void main(String[] args) {
 		System.out.println("Hello World");
 	}
 }
-'''
+```
 * O Java diferencia maiúsculas de minúsculas. O padrão é usar primeira maiúscula para classes e primeira minúscula para atributos, variáveis ​​e métodos. Usar todas as letras minúsculas indica um nome de pacote e todas as letras maiúsculas, um nome de constante.
 * Todo programa Java tem um nome de classe que deve corresponder ao nome do arquivo e todo programa deve conter o método main().
 * Comentários de linha única começam com duas barras (//).
