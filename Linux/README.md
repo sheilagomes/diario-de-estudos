@@ -6,6 +6,8 @@
 
 * [Tradutor CTRL ALT E +  CTRL SHIFT C + ALT TAB](https://crow-translate.github.io/#installation)
 
+* Para criar arquivos na linha de comando: `touch arquivo.txt`
+
 * Pra matar processo: ps aux | grep rhythmbox
 kill 13881 ([número do processo](https://superuser.com/questions/117913/ps-aux-output-meaning) visto no resultado do comando anterior, segunda coluna)
 
@@ -67,7 +69,7 @@ kill 13881 ([número do processo](https://superuser.com/questions/117913/ps-aux-
   - pra colocar em um: super+shift+pgdown
   - pra mover entre workspaces: super+pgdown, super+pgup
 
-* DB: mysql -h localhost -u maria -p (senha do computador)
+* BD: `mysql -h localhost -u maria -p (senha do computador)`
 
 * BD não funcionava, [testei e deu certo](https://cursos.alura.com.br/forum/topico-java-sql-sqlexception-access-denied-for-user-root-localhost-52498):
 (Criar um novo usuário e dar permissão pra ele)
@@ -76,7 +78,7 @@ kill 13881 ([número do processo](https://superuser.com/questions/117913/ps-aux-
 
 * Pra colocar ícones na área de trabalho copia e cola de Arquivos > Other Locations > Computer > usr > share > applications
 
-* rm -r dirname (Remove o diretório mesmo com arquivos dentro)
+* Remove o diretório mesmo com arquivos dentro): `rm -r dirname`
 
 * Ctrl L mostra o caminho do arquivo selecionado
 

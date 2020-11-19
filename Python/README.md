@@ -23,6 +23,7 @@
 ## Outras informações
 * [Membro da Python Software Foundation](https://www.python.org/psf/membership/)
 * [O que é a PSF?](https://carolinedantas.com/tutorial/2020/05/21/psf_ptbr.html)
+* [Newsletters](https://mail.python.org/mailman/listinfo)
 
 
 [Markdown](https://guides.github.com/features/mastering-markdown/) / [ResizeImage](https://resizeimage.net/)

@@ -6,16 +6,16 @@
 
 ## Dicas de IDEs
 ### Eclipse/STS
-* Dois cliques no nome de uma janela no faz a janela maximizar e minimizar
-* sysout e enter faz a expressão de impressão pulando linha
+* Dois cliques no nome de uma janela faz a janela maximizar e minimizar
+* Para criar a expressão de impressão pulando linha digitar `sysout` e dar enter
 
 ### Intellij
-* sout e enter faz a expressão de impressão pulando linha
-* psvd e enter faz a expressão de início de programa principal
-* Ctrl + Shift + A pra abrir ações
+* Para criar a expressão de impressão pulando linha digitar `sout` e dar enter
+* Para criar a expressão do main() digitar `psvm` e dar enter 
+* Para abrir ações usadas com frequência: Ctrl + Shift + A
 
 ## Dicas da linguagem
-* Boa prática ao nomear métodos é começar com verbo: exibirAutonomia()
+* Boa prática ao nomear métodos é começar com verbo: `exibirAutonomia()`
 * Os números no Java são como uma roleta: se somar 1 ao limite, volta como negativos (fecha o círculo)
 * Se usar static antes da declaração de variável dentro de uma classe, a variável é global e funcionará independente das instâncias.
 * O super indica uma variável que vem de uma classe superior (quando é usado o extends, por ex.)
@@ -31,30 +31,37 @@ public class MyClass {
 * O Java diferencia maiúsculas de minúsculas. O padrão é usar primeira maiúscula para classes e primeira minúscula para atributos, variáveis ​​e métodos. Usar todas as letras minúsculas indica um nome de pacote e todas as letras maiúsculas, um nome de constante.
 * Todo programa Java tem um nome de classe que deve corresponder ao nome do arquivo e todo programa deve conter o método main().
 * Comentários de linha única começam com duas barras (//).
-* Comentários de várias linhas começam com /* e terminam com */.
-- To create a variable, you must specify the type and assign it a value: 
-	int myNum = 15;
-	float myFloatNum = 5.99f;
-	char myLetter = 'D';
-	boolean myBool = true;
-	String myText = "Hello";
-* You can also declare a variable without assigning the value, and assign the value later: 		
- 	int myNum;
-	myNum = 15;
-* Add the final keyword to declare the variable as "final" or "constant", which means unchangeable and read-only:
-	final int myNum = 15;
-* The println() method is often used to display variables. To combine both text and a variable, use the + character:
-	String name = "John";
-	System.out.println("Hello " + name);
-* To declare more than one variable of the same type, use a comma-separated list:
-	int x = 5, y = 6, z = 50;
-	System.out.println(x + y + z);
-* All Java variables must be identified with unique names called identifiers. It is recommended to use descriptive names in order to create understandable and maintainable code. The general rules for constructing names for variables (unique identifiers) are: names can contain letters, digits, underscores, and dollar signs, must begin with a letter, should start with a lowercase letter and it cannot contain whitespace, can also begin with $ and _, names are case sensitive, reserved words cannot be used as names.
-* Data types are divided into two groups: Primitive (includes byte, short, int, long, float, double, boolean and char) and Non-primitive (String, Arrays and Classes)
-* The byte data type can store whole numbers from -128 to 127.
-* The short data type can store whole numbers from -32768 to 32767.
-* The int data type can store whole numbers from -2147483648 to 2147483647.
-* The long data type can store whole numbers from -9223372036854775808 to 9223372036854775807.
+* Comentários de várias linhas começam com `/*` e terminam com `*/`.
+* Para criar uma variável, você deve especificar o tipo e atribuir um valor a ela:
+```
+int myNum = 15;
+myFloatNum = 5.99f;
+char myLetter = 'D';
+boolean myBool = true;
+String myText = "Hello";
+```
+* Você também pode declarar uma variável sem atribuir o valor e atribuir o valor depois:
+```
+int myNum;
+myNum = 15;
+```
+* Adicione a palavra-chave `final` para declarar a variável como "final" ou "constante", para que ela seja imutável e somente para leitura: `final int myNum = 15;`
+* O método `println()` é muitas vezes usado para exibir variáveis. Para combinar texto e variável, use o caractere +:
+```
+String name = "John";
+System.out.println("Hello " + name);
+```
+* Para declarar mais de uma variável do mesmo tipo, use uma lista separada por vírgulas:
+```
+int x = 5, y = 6, z = 50;
+System.out.println(x + y + z);
+```
+* Todas as variáveis ​​Java devem ser identificadas com nomes exclusivos chamados identificadores. É recomendável usar nomes descritivos para criar código compreensível e sustentável. As regras gerais para a construção de nomes para variáveis ​​(identificadores únicos) são: nomes podem conter letras, dígitos, sublinhados e cifrões, devem começar com uma letra, devem começar com uma letra minúscula e não podem conter espaços em branco, também podem começar com cifrão e sublinhado, os nomes diferenciam maiúsculas de minúsculas, as palavras reservadas não podem ser usadas como nomes.
+* Os tipos de dados são divididos em dois grupos: Primitivos (inclui byte, short, int, long, float, double, boolean e char) e não primitivos (String, Arrays e Classes)
+* O tipo de dados byte pode armazenar números inteiros de -128 a 127.
+* O tipo de dados short pode armazenar números inteiros de -32768 a 32767.
+* O tipo de dados int pode armazenar números inteiros de -2147483648 a 2147483647.
+* O tipo de dados long pode armazenar números inteiros de -9223372036854775808 a 9223372036854775807.
 * The float data type can store fractional numbers from 3.4e−038 to 3.4e+038. Note that you should end the value with an "f".
 * The double data type can store fractional numbers from 1.7e−308 to 1.7e+308. Note that you should end the value with a "d".
 * The char data type is used to store a single character. The character must be surrounded by single quotes, like 'A' or 'c'. Alternatively, you can use ASCII values to display certain characters:
@@ -69,76 +76,98 @@ public class MyClass {
 * Escape characters: \', \", \\, \n, \r, \t, \b, \f
 * [Math methods](https://www.w3schools.com/JAVA/java_ref_math.asp):  Math.max(x,y), Math.min(x,y), Math.sqrt(x), Math.abs(x), Math.random()
 * The if Statement:
-	if (condition1) {
-	  // block of code to be executed if condition1 is true
-	} else if (condition2) {
-	  // block of code to be executed if the condition1 is false and condition2 is true
-	} else {
-	  // block of code to be executed if the condition1 is false and condition2 is false
-	}
-* Short Hand If...Else (Ternary Operator):
-	variable = (condition) ? expressionTrue :  expressionFalse;
+```
+if (condition1) {
+  // block of code to be executed if condition1 is true
+} else if (condition2) {
+  // block of code to be executed if the condition1 is false and condition2 is true
+} else {
+  // block of code to be executed if the condition1 is false and condition2 is false
+}
+```
+* Short Hand If...Else (Ternary Operator): `variable = (condition) ? expressionTrue :  expressionFalse;`
 * Switch statements:
-	switch(expression) {
-	  case x:
-	    // code block
-	    break;
-	  case y:
-	    // code block
-	    break;
-	  default:
-	    // code block
-	}
+```
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+}
+```
 * While loop:
-	while (condition) {
-	  // code block to be executed
-	}
+```
+while (condition) {
+  // code block to be executed
+}
+```
 * Do/While loop:
-	do {
-	  // code block to be executed
-	}
-	while (condition);
+```
+do {
+  // code block to be executed
+}
+while (condition);
+```
 * For loop:
-	for (statement 1; statement 2; statement 3) {
-	  // code block to be executed
-	 }
+```
+for (statement 1; statement 2; statement 3) {
+  // code block to be executed
+ }
+```
 * For-each loop:
-	for (type variableName : arrayName) {
-	  // code block to be executed
-	}
+```
+for (type variableName : arrayName) {
+  // code block to be executed
+}
+```
 * The break statement can be used to jump out of a loop. The continue statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop. You can also use break and continue in while loops.
 * Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value. To declare an array, define the variable type with square brackets:
-	String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
-        System.out.println(cars[0]);
+```
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+    System.out.println(cars[0]);
+```
 * You can loop through the array elements with the for loop, and use the length property to specify how many times the loop should run.
-        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
-        for (int i = 0; i < cars.length; i++) {
-          System.out.println(cars[i]);
+```
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+for (int i = 0; i < cars.length; i++) {
+  System.out.println(cars[i]);
+```
 * The following example outputs all elements in the cars array, using a "for-each" loop:
-        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
-        for (String i : cars) {
-          System.out.println(i);
+```
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+for (String i : cars) {
+  System.out.println(i);
+```
 * A multidimensional array is an array containing one or more arrays. To access the elements of the myNumbers array, specify two indexes: one for the array, and one for the element inside that array. 
-        int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
-        int x = myNumbers[1][2];
-        System.out.println(x); // Outputs 7
+```
+int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
+int x = myNumbers[1][2];
+System.out.println(x); // Outputs 7
+```
 * We can also use a for loop inside another for loop to get the elements of a two-dimensional array (we still have to point to the two indexes):
-        public class MyClass {
-          public static void main(String[] args) {
-            int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
-            for (int i = 0; i < myNumbers.length; ++i) {
-              for(int j = 0; j < myNumbers[i].length; ++j) {
-                System.out.println(myNumbers[i][j]);
-              }
-            }
-          }
-* A method is a block of code which only runs when it is called. You can pass data, known as parameters, into a method. Methods are used to perform certain actions, and they are also known as functions. Why use methods? To reuse code: define the code once, and use it many times. A method must be declared within a class. It is defined with the name of the method, followed by parentheses (). Java provides some pre-defined methods, such as System.out.println(), but you can also create your own methods to perform certain actions. Create a method inside MyClass:
-    public class MyClass {
-      static void myMethod() {
-        // code to be executed
+```
+public class MyClass {
+  public static void main(String[] args) {
+    int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
+    for (int i = 0; i < myNumbers.length; ++i) {
+      for(int j = 0; j < myNumbers[i].length; ++j) {
+        System.out.println(myNumbers[i][j]);
       }
     }
-
+  }
+```
+* A method is a block of code which only runs when it is called. You can pass data, known as parameters, into a method. Methods are used to perform certain actions, and they are also known as functions. Why use methods? To reuse code: define the code once, and use it many times. A method must be declared within a class. It is defined with the name of the method, followed by parentheses (). Java provides some pre-defined methods, such as System.out.println(), but you can also create your own methods to perform certain actions. Create a method inside MyClass:
+```
+public class MyClass {
+  static void myMethod() {
+    // code to be executed
+  }
+}
+```
 
 ## Cursos em vídeo
 * [Curso completo DevDojo - parei na aula 33](https://www.youtube.com/watch?v=L151aRhoNSM&list=PL62G310vn6nHrMr1tFLNOYP_c73m6nAzL&index=34)
