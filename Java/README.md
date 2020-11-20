@@ -62,7 +62,7 @@ System.out.println(x + y + z);
 * O tipo de dados short pode armazenar números inteiros de -32768 a 32767.
 * O tipo de dados int pode armazenar números inteiros de -2147483648 a 2147483647.
 * O tipo de dados long pode armazenar números inteiros de -9223372036854775808 a 9223372036854775807.
-* The float data type can store fractional numbers from 3.4e−038 to 3.4e+038. Note that you should end the value with an "f".
+* O tipo de dados float pode armazenar números fracionais de 3.4e−038 a 3.4e+038. Observe que é preciso terminar o número com um "f".
 * The double data type can store fractional numbers from 1.7e−308 to 1.7e+308. Note that you should end the value with a "d".
 * The char data type is used to store a single character. The character must be surrounded by single quotes, like 'A' or 'c'. Alternatively, you can use ASCII values to display certain characters:
 	char a = 65, b = 66, c = 67;
@@ -170,8 +170,8 @@ public class MyClass {
 ```
 
 ## Cursos em vídeo
-* [Curso completo DevDojo - parei na aula 33](https://www.youtube.com/watch?v=L151aRhoNSM&list=PL62G310vn6nHrMr1tFLNOYP_c73m6nAzL&index=34)
-* [FCC Java - Primeiros 22min conceitos](https://www.youtube.com/watch?v=grEKMHGYyns)
+* [Curso completo DevDojo](https://www.youtube.com/watch?v=L151aRhoNSM&list=PL62G310vn6nHrMr1tFLNOYP_c73m6nAzL&index=34) - parei na aula 33
+* [FCC Java](https://www.youtube.com/watch?v=grEKMHGYyns) - Primeiros 22min conceitos
 * [Guanabara Java](https://youtu.be/xHgnlic7fj8?list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR)
 
 ## Tutoriais em vídeo
@@ -189,7 +189,8 @@ public class MyClass {
 
 ## Para ler e consultar:
 * [Medium do Devs Javagirl](https://medium.com/devs-javagirl)
-* [Prototipação básica online](https://wireframe.cc/)]
+* [Prototipação básica online](https://wireframe.cc/)
 * [Figma pra prototipação mais detalhada](https://www.figma.com/files/recent)
+* [ThinkJava](https://books.trinket.io/thinkjava2/)
 
 [Markdown](https://guides.github.com/features/mastering-markdown/) / [ResizeImage](https://resizeimage.net/)

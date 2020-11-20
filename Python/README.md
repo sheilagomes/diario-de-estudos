@@ -4,6 +4,24 @@
 
 [Documentação oficial](https://docs.python.org/3/)
 
+## Dicas da linguagem
+* A atribuição de variáveis segue estas regras: (1) devem começar com letra ou sublinhado, (2) o resto do nome deve ter letras, número e sublinhados, (3) diferenciam maiúsculas de minúsculas
+- Convenções de nomeação no Python:
+  - (1) variáveis seguem caso cobra: `snake_case`
+  - (2) a maioria dos nomes de variáveis deve ser em minúsculas, exceto por constantes que devem ser maiúsculas e caso camelo maiúsculo para nomes de classes: `UpperCamelCase`
+  - (3) variáveis que começam e terminam com dois sublinhados (dunder ou double underscore) são privadas: `__intocavel__`
+* Python tem tipagem dinâmica (e não estática, como o Java), ou seja, aceita atribuição de valores diferentes dinamicamente
+* Ao usar aspas para delcarar strings, tanto faz usar simples ou dupla , mas é preciso manter o padrão depois de escolher uma delas:
+```
+d = 'simples'
+d = "dupla"
+```
+* O caracter de escape `\x` permite declarar valores hexadecimais: `hexa = "\x41" # a`
+* A concatenação de strings funciona igual ao Java, usando + (ou +=)
+* Para interpolar variáveis em strings existem as F-Strings: `f'mais de {x} vezes'`. Os dados interpolados são automaticamente convertidos em strings.
+* Converter dados com a função `int()` extrai apenas a parte inteira: `int(12.345) # 12`, que é diferente de usar `round` pois não arredonda o número
+* Para iniciar uma string vazia é possível usar `''` ou `Nome` (que é tipo de dado NoneType)
+
 ## Bibliotecas
 * [Automação de GUI com Python](https://imasters.com.br/back-end/automacao-de-gui-com-python-exemplo-de-uso-do-pyautogui-2)
 * Instalação pyautogui: pip3 install pyautogui
@@ -15,6 +33,10 @@
 
 ## Cursos em vídeo
 * [Python para zumbis](https://www.youtube.com/playlist?list=PLUukMN0DTKCtbzhbYe2jdF4cr8MOWClXc)
+* [The Modern Python3 Bootcamp](https://www.udemy.com/course/the-modern-python3-bootcamp)
+
+## Resumos/Notas de livros
+* [Pense em Python]()
 
 ## Referências
 * [Automate the boring stuff](https://automatetheboringstuff.com)
