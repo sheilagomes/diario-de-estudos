@@ -55,33 +55,54 @@ def do_four(f,x):
     do_twice(f,x)
     do_twice(f,x)
 
-def print_spam(x):
-    print('spam')
+def print_x(x):
+    print(x)
 
-do_four(print_spam, 'spam')
+do_four(print_x, 'aria')
 ```
 * Exercício de construção de grade:
 ```
-def linha1():
+def linha_mais():
     print('+ - - - -', end=' ')
 
-def linha2():
+def linha_barra():
     print('|        ', end=' ')
 
-def mais():
-    print(+);
+def final_mais():
+    print('+')
 
-def do_twice(f, x):
-    f(x)
-    f(x)
+def final_barra():
+    print('|')
 
-def do_four(f,x):
-    do_twice(f,x)
-    do_twice(f,x)
+def dobra(f):
+    f()
+    f()
 
-def print_spam(x):
-    print('spam')
+def quadruplica(g):
+    dobra(g)
+    dobra(g)
 
-do_twice(linha1)
-do_four(print_spam, 'spam')
+def linhas_horizontais():
+    quadruplica(linha_mais)
+    final_mais()
+
+def linhas_verticais():
+    quadruplica(linha_barra)
+    final_barra()
+
+def grade():
+    linhas_horizontais()
+    quadruplica(linhas_verticais)
+    linhas_horizontais()
+    quadruplica(linhas_verticais)
+    linhas_horizontais()
+    quadruplica(linhas_verticais)
+    linhas_horizontais()
+    quadruplica(linhas_verticais)
+    linhas_horizontais()
+
+grade()
 ```
+
+## Capítulo 4: Estudo de caso: projeto de interface
+

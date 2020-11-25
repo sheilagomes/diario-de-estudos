@@ -21,5 +21,8 @@ Comentários sobre alguns sites:
 * [List of remote friendly web development job board websites](https://blog.markjgsmith.com/2020/01/19/list-of-remote-friendly-web-development-job-board-websites.html)
 * [List of freelance web development websites and marketplaces](https://blog.markjgsmith.com/2020/01/19/list-of-freelance-web-development-websites-and-marketplaces.html)
 * [What Your Freelance Developer Contract Should Cover (Contract Templates Included)](https://www.codementor.io/blog/freelance-web-developer-contract-2uncidz6la)
+* [Remote tools](https://www.remote.tools)
+* [The Remote Clan](https://remoteclan.com/)
+* [Flexiple](https://flexiple.com/freelancers/)
 
 [Markdown](https://guides.github.com/features/mastering-markdown/) / [ResizeImage](https://resizeimage.net/)

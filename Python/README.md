@@ -22,6 +22,20 @@ d = "dupla"
 * Converter dados com a função `int()` extrai apenas a parte inteira: `int(12.345) # 12`, que é diferente de usar `round` pois não arredonda o número
 * Para iniciar uma string vazia é possível usar `''` ou `Nome` (que é tipo de dado NoneType)
 * Para ver o Zen do Python, digite `import this` no interpretador.
+* No Python, em vez do `else if` do Java, temos `elif`.
+* Coisas que são falsas no Python: false, objetos vazios, strings vazias, None e 0.
+* O operador de negação de igualdade é `!=` e os operadores lógicos são `and`, `or`, `not` e não usam parênteses em condicionais.
+* O comparador `is` só é igual a `==` se as variáveis referenciam o mesmo item na memória:
+```
+a = [1, 2, 3]
+b = [1, 2, 3]
+a == b  # True
+a is b  # False
+
+c = b
+b is c  # True
+```
+* O comando `input` sempre recebe uma string, então para usar como número é preciso converter com `int()` ou `float()`, por ex.
 
 ## Bibliotecas
 * [Automação de GUI com Python](https://imasters.com.br/back-end/automacao-de-gui-com-python-exemplo-de-uso-do-pyautogui-2)
