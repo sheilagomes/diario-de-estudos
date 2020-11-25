@@ -35,5 +35,53 @@ print_twice(math.cos(math.pi)) #argumento = math.cos(math.pi)
 michael = 'Eric, the half a bee.'
 print_twice(michael) #argumento = variável michael
 ```
-* Uma variável dentro de uma função é local, ou seja, não existe fora da função.
+* Variáveis e parâmetros dentro de uma função são locais, ou seja, não existem fora da função.
+* As funções podem ter retorno ou serem nulas. Se uma função nula for atribuída a uma variável, ela recebe um valor especial chamado `None` (do tipo `NoneType`):
+* Funções sáo úteis para manter o código limpo e curto, para serem reutilizadas em outros programas e para facilitar a depuração.
+* Uma função é dividida em cabeçalho (primeira linha) e corpo.
+* A notação de ponto é a forma em que se chama uma função de outro módulo,  especificando o nome do módulo seguido de um ponto e o nome da função.
+* Exemplo de função para justificar palavras à direita:
+```
+def right_justify(word):
+    print(f'{' '*(70-len(word)'}{word})
+```
+* Exemplo de função para repetir o uso de outras funções:
+```
+def do_twice(f, x):
+    f(x)
+    f(x)
 
+def do_four(f,x):
+    do_twice(f,x)
+    do_twice(f,x)
+
+def print_spam(x):
+    print('spam')
+
+do_four(print_spam, 'spam')
+```
+* Exercício de construção de grade:
+```
+def linha1():
+    print('+ - - - -', end=' ')
+
+def linha2():
+    print('|        ', end=' ')
+
+def mais():
+    print(+);
+
+def do_twice(f, x):
+    f(x)
+    f(x)
+
+def do_four(f,x):
+    do_twice(f,x)
+    do_twice(f,x)
+
+def print_spam(x):
+    print('spam')
+
+do_twice(linha1)
+do_four(print_spam, 'spam')
+```
