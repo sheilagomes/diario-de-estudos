@@ -4,6 +4,7 @@
 
 ## Dicas gerais
 * Diferença entre char e varchar: o primeiro usa todos os caracteres e preenche com espaços, o segundo só usa o que for ocupado
+* CRUD - Create, Read, Update, Delete
 
 ## Comandos MySQL
 * Para criar BD com codificação utf8:

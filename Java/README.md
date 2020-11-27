@@ -168,6 +168,7 @@ public class MyClass {
   }
 }
 ```
+* Para tipo char, usar aspas simples em vez de duplas.
 
 ## Cursos em vídeo
 * [Curso completo DevDojo](https://www.youtube.com/watch?v=L151aRhoNSM&list=PL62G310vn6nHrMr1tFLNOYP_c73m6nAzL&index=34) - parei na aula 33
