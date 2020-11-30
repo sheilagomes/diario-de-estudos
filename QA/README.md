@@ -1,5 +1,8 @@
 # QA
 
+## Dicas de QA
+* Diferença entre engano, defeito, erro e falha: engano é cometido pelo programador, defeito é o engano inserido no código/estrutura, erro é o problema causado pelo defeito e falha é o erro chegando ao produto final.
+
 ## Resumo de livros
 * [Agile Testing](https://github.com/sheilagomes/diario-de-estudos/tree/main/QA/Livro%20Agile%20Testing)
 

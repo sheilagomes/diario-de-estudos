@@ -88,4 +88,6 @@ kill 13881 ([número do processo](https://superuser.com/questions/117913/ps-aux-
 
 * [Recuperar senha root](https://sempreupdate.com.br/recuperar-a-senha-do-root-no-mysql/)
 
+* Instalar programas: `sudo apt-get install nome-do-programa`
+
 [Markdown](https://guides.github.com/features/mastering-markdown/) / [ResizeImage](https://resizeimage.net/)

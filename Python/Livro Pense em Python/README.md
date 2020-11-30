@@ -105,4 +105,50 @@ grade()
 ```
 
 ## Capítulo 4: Estudo de caso: projeto de interface
+* Introdução a módulos e suas funções usando o Turtle para mover um ponto ou desenhar linhas numa interface gráfica:
+```
+import turtle
+bob = turtle.Turtle()
+for i in range(4): #instrução que desenha um quadrado
+    bob.fd(100)
+    bob.lt(90)
+turtle.mainloop()
+```
+* Incluir uma parte do código em uma função chama-se encapsulamento:
+```
+def square(t):
+    for i in range(4):
+        t.fd(100)
+        t.lt(90)
 
+square(bob)
+```
+* Acrescentar um parâmetro a uma função chama-se generalização porque ele torna a função mais geral:
+```
+def polygon(t, n, length):
+    angle = 360 / n
+    for i in range(n):
+        t.fd(length)
+        t.lt(angle)
+
+polygon(bob, 7, 70)
+```
+* Um plano de desenvolvimento é um processo para escrever programas. O processo que usamos neste estudo de caso é “encapsulamento e generalização”. Os passos deste processo são:
+ 1. Comece escrevendo um pequeno programa sem definições de função.
+ 2. Uma vez que o programa esteja funcionando, identifique uma parte coerente dele, encapsule essa parte em uma função e dê um nome a ela.
+ 3. Generalize a função acrescentando os parâmetros adequados.
+ 4. Repita os passos 1-3 até que tenha um conjunto de funções operantes. Copie e cole o código operante para evitar a redigitação (e redepuração).
+ 5. Procure oportunidades de melhorar o programa pela refatoração. Por exemplo, se você tem um código semelhante em vários lugares, pode ser uma boa ideia fatorá-lo em uma função geral adequada.
+* Uma docstring é uma string no início de uma função que explica a interface:
+```
+def polyline(t, n, length, angle):
+    """Desenha n segmentos de reta com o comprimento dado e
+    ângulo (em graus) entre eles. t é um turtle.
+    """
+    for i in range(n):
+        t.fd(length)
+        t.lt(angle)
+```
+
+## Capítulo 5: Condicionais e recursividade
+* 

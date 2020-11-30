@@ -13,6 +13,8 @@
 * Para criar a expressão de impressão pulando linha digitar `sout` e dar enter
 * Para criar a expressão do main() digitar `psvm` e dar enter 
 * Para abrir ações usadas com frequência: Ctrl + Shift + A
+* Debug: F7 - entra no método, F8 - próximo passo, F9 - próximo breakpoint, Drop frame - volta início execução método atual
+* Entrar no método - Ctrl + Alt + B
 
 ## Dicas da linguagem
 * Boa prática ao nomear métodos é começar com verbo: `exibirAutonomia()`
@@ -29,6 +31,7 @@ public class MyClass {
 }
 ```
 * O Java diferencia maiúsculas de minúsculas. O padrão é usar primeira maiúscula para classes e primeira minúscula para atributos, variáveis ​​e métodos. Usar todas as letras minúsculas indica um nome de pacote e todas as letras maiúsculas, um nome de constante.
+* Exemplo de nomeação de pacote: domínio da empresa ao contrário + noe do projeto + pastas/subpastas: `br.trd.multitude.cursoOmegaT.aula1`
 * Todo programa Java tem um nome de classe que deve corresponder ao nome do arquivo e todo programa deve conter o método main().
 * Comentários de linha única começam com duas barras (//).
 * Comentários de várias linhas começam com `/*` e terminam com `*/`.
