@@ -151,4 +151,33 @@ def polyline(t, n, length, angle):
 ```
 
 ## Capítulo 5: Condicionais e recursividade
+* A divisão pelo piso é feita com // e para obter o resrtyo de uma divisão usamos o módulo com %
+* Os operadores relacionais do Python são ==, !=, >, <, <= e >=
+* São três os operadores lógicos: and, or e not
+* Nas condicionais com if, elif e else não há limite para o números de eilfs e o else não é obrigatório no final:
+```
+if x < y:
+    print('x is less than y')
+elif x > y:
+    print('x is greater than y')
+else:
+    print('x and y are equal')
+```
+* Para ter um corpo sem instruções como um espaço reservado para código que ainda não foi escrito podemos usar a instrução `pass`
+* Forma concisa de escrever condicionais:
+```
+if 0 < x < 10:
+    print('x is a positive single-digit number.')
+```
+* Uma função que chama a si mesma é recursiva:
+```
+def countdown(n):
+    if n <= 0:
+        print('Blastoff!')
+    else:
+        print(n)
+        countdown(n-1)
+```
+* A função integrada `input` interrompe o programa e espera que o usuário digite algo:
+`name = input('What...is your name?\\n')`
 * 
