@@ -10,4 +10,5 @@ Coletânea de anotações e recursos de estudo de tudo o que me interessa (ideia
 * [Podcasts](https://github.com/sheilagomes/diario-de-estudos/tree/main/Podcasts)
 * [Python](https://github.com/sheilagomes/diario-de-estudos/tree/main/Python)
 * [QA](https://github.com/sheilagomes/diario-de-estudos/tree/main/QA)
+* [Storytelling](https://github.com/sheilagomes/diario-de-estudos/tree/main/Storytelling)
 * [Trabalho remoto](https://github.com/sheilagomes/diario-de-estudos/tree/main/Remoto)

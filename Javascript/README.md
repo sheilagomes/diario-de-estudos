@@ -1,5 +1,6 @@
 # Javascript
 
+![Logo do Java](https://github.com/sheilagomes/diario-de-estudos/blob/main/Javascript/js-logo.png)
 
 ## Dicas da linguagem
 * Ctrl + Shift + I no navegador pra abrir console
@@ -21,14 +22,14 @@ linhas*/
 * Para criar variáveis que não podem mudar:
 `const naoMuda = "Imutável";`
 * Por convenção, as linhas de código terminam igual ao Java, com ;
-* Concatenação a partir do ES
+* Concatenação a partir do ES6: 
 `console.log(`${firstName} ${lastName}`);`
 * Alguns métodos de strings:
 ```
 console.log(`${firstName} ${lastName}`.trim().length); //trim tira espaços ao redor
 console.log(`${firstName} ${lastName}`.toUpperCase());
 console.log(`${firstName} ${lastName}`.toLowerCase());
-console.log(`${firstName} ${lastName}`.split(' ')); //cria um array das strings separadas pelo atributo definido em split
+console.log(`${firstName} ${lastName}`.split(' ')); //cria um array das strings separadas pelo atributo definido
 console.log(`${firstName} ${lastName}`.split('')); //cria um array com cada letra separada das strings
 
 ```
@@ -38,10 +39,10 @@ console.log(parseInt(7.77))
 console.log(parseFloat('7.77'));
 console.log('7.77'.toFixed(5));
 ```
-* Usar o método toFixed() com menos dígitos que o número convertido arredonda-o para cima: `console.log('7.77'.toFixed(5)); // 7.8`
+* Usar o método toFixed() com menos dígitos que o número original arredonda-o para cima: `console.log('7.77'.toFixed(5)); // 7.8`
 * O tipo resultante do método toFixed() é uma string
-* Valores que dão `false` para boolean: NaN, null, 0, '', undefined(estrutura inexistente)
-* Como criar arrays usamos colchetes:
+* Valores que dão `false` para boolean: NaN, null, 0, '', undefined
+* Para criar arrays usamos colchetes, seguem alguns métodos:
 ```
 let example1 = [];
 let example2 = [5, 7, 6];
@@ -108,7 +109,7 @@ for (let i = 0; i <5; i++) {
     total += i;
 }
 ```
-* For aprimorado:
+* For aprimorado para percorrer arrays:
 ```
 for(const cartItem of cartItems) {
     total += cartItem.price * cartItem.quantity;
@@ -119,7 +120,8 @@ for(const cartItem of cartItems) {
 function add(num1, num2) {
     return num1 + num2;
 }
-```
 
 console.log(add(10, 6));
+```
+
 [Markdown](https://guides.github.com/features/mastering-markdown/) / [ResizeImage](https://resizeimage.net/)
