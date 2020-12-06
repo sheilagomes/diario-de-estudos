@@ -20,7 +20,7 @@ d = "dupla"
 * A concatenação de strings funciona igual ao Java, usando + (ou +=)
 * Para interpolar variáveis em strings existem as F-Strings: `f'mais de {x} vezes'`. Os dados interpolados são automaticamente convertidos em strings.
 * Converter dados com a função `int()` extrai apenas a parte inteira: `int(12.345) # 12`, que é diferente de usar `round` pois não arredonda o número
-* Para iniciar uma string vazia é possível usar `''` ou `Nome` (que é tipo de dado NoneType)
+* Para iniciar uma string vazia é possível usar `''` ou `None` (que é tipo de dado NoneType)
 * Para ver o Zen do Python, digite `import this` no interpretador.
 * No Python, em vez do `else if` do Java, temos `elif`.
 * Coisas que são falsas no Python: false, objetos vazios, strings vazias, None e 0.
@@ -36,6 +36,22 @@ c = b
 b is c  # True
 ```
 * O comando `input` sempre recebe uma string, então para usar como número é preciso converter com `int()` ou `float()`, por ex.
+* Loops com for (item é a posição atual do iterador, iterable o objeto iterável):
+```
+for item in iterable_object:
+    # do something with item
+```
+* Loops com for podem iterar por intervalos, strings, coleções, arrays:
+```
+for number in range(1, 8): # range(início, fim, passo)
+    print(number)
+```
+* Formato do loop com while:
+```
+user_response = None
+while user_response != "please":
+    user_response = input("Ah ah ah, you didn't say the magic word: ")
+```
 
 ## Bibliotecas
 * [Automação de GUI com Python](https://imasters.com.br/back-end/automacao-de-gui-com-python-exemplo-de-uso-do-pyautogui-2)

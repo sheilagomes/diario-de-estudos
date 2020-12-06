@@ -24,7 +24,7 @@ linhas*/
 * Por convenção, as linhas de código terminam igual ao Java, com ;
 * Concatenação a partir do ES6: 
 `console.log(`${firstName} ${lastName}`);`
-* Alguns métodos de strings:
+* Alguns métodos de strings (podem ser acumulados e são resolvidos da esquerda para a direita):
 ```
 console.log(`${firstName} ${lastName}`.trim().length); //trim tira espaços ao redor
 console.log(`${firstName} ${lastName}`.toUpperCase());
@@ -123,5 +123,7 @@ function add(num1, num2) {
 
 console.log(add(10, 6));
 ```
+* Para reverter uma string:
+`str.split('').reverse().join().replace(/,/g, "") // /,/g faz substituição global da vírgula `
 
 [Markdown](https://guides.github.com/features/mastering-markdown/) / [ResizeImage](https://resizeimage.net/)
