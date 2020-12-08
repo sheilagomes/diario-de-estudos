@@ -123,7 +123,11 @@ function add(num1, num2) {
 
 console.log(add(10, 6));
 ```
-* Para reverter uma string:
-`str.split('').reverse().join().replace(/,/g, "") // /,/g faz substituição global da vírgula `
-
+* Para reverter uma string: `str.split('').reverse().join('')`
+* Substituição globa com replace: `replace(/,/g, "") // /,/g faz substituição global da vírgula`
+* Ao usar um event listener obtido do DOM com getElementsByClassName é preciso colocar o índice do elemento obtido:
+```
+let diceFace = document.getElementsByClassName("dice");
+diceFace[0].addEventListener("click", function(){...
+```
 [Markdown](https://guides.github.com/features/mastering-markdown/) / [ResizeImage](https://resizeimage.net/)

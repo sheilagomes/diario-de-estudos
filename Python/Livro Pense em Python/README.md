@@ -180,4 +180,25 @@ def countdown(n):
 ```
 * A função integrada `input` interrompe o programa e espera que o usuário digite algo:
 `name = input('What...is your name?\\n')`
+
+## Capítulo 6: Funções com resultado
+* Para definir uma função com retorno:
+```
+def area(radius):
+    return math.pi * radius**2
+```
+* Cada caminho possível pelo programa deve ter um return:
+```
+def absolute_value(x):
+    if x < 0:
+        return -x
+    if x > 0:
+        return x #se o valor de x for zero o programa derá um erro
+```
+* Desenvolvimento incremental: para evitar longas sessões de depuração, acrescente e teste pequenas partes do código de cada vez, usando instruções print para depuração, e depois restirando-as. Códigos desse tipo são chamados de scaffolding, porque são úteis para construir o programa, mas não são parte do produto final.
+* Depois de verificar se o programa está funcionando, podemos torná-lo mais conciso compondo chamadas de função:
+```
+def circle_area(xc, yc, xp, yp):
+    return area(distance(xc, yc, xp, yp))
+```
 * 
