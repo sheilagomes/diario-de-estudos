@@ -172,6 +172,26 @@ public class MyClass {
 }
 ```
 * Para tipo char, usar aspas simples em vez de duplas.
+* O `this` é usado para referenciar algo dentro da própria classe, como num construtor em que referencia o parâmetro atribuído à variável:
+```
+String marca;
+  String modelo;
+  int numPassageiros;
+  double capCombustivel;
+  double consumoCombustivel;
+  
+  public Carro2(String marca, String modelo, int numPassageiros,
+      double capCombustivel, double consumoCombustivel) {
+    super();
+    this.marca = marca;
+    this.modelo = modelo;
+    this.numPassageiros = numPassageiros;
+    this.capCombustivel = capCombustivel;
+    this.consumoCombustivel = consumoCombustivel;
+  }
+```
+* Se colocar o cursor em cima de uma variável ou parâmetro e apertar F3, a IDE leva à atribuição original (mostra de onde veio).
+* O modificador de acesso `public` torna a classe disponível para uso em outros pacotes. Se não for usado nenhum modificador, será usado o `default` e a classe só pode usada no próprio pacote em que está. Se for usado `private`, só a própria classe poderá acessar o que vem em seguida do modificador.
 
 ## Cursos em vídeo
 * [Curso completo DevDojo](https://www.youtube.com/watch?v=L151aRhoNSM&list=PL62G310vn6nHrMr1tFLNOYP_c73m6nAzL&index=34) - parei na aula 33

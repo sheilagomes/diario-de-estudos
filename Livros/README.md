@@ -1,6 +1,7 @@
 # Livros
 
 ## Lendo agora
+* A parábola do semeador, de Octavia Butler
 * [The Queen's Gambit](https://en.wikipedia.org/wiki/The_Queen%27s_Gambit_(novel)), de Walter Tevis: A história de uma enxadrista, com bastante foco no jogo, mas também na sua vida desestruturada, depois de perder os pais aos 9 anos, passar um tempo em um orfanato e ser adotada por pais que a viam como solução para seus próprios problemas. A série é quase idêntica ao livro, pelo menos até a parte que já li.
 * [The White Vault](https://www.patreon.com/posts/white-vault-1-17703765), de Kaitlin Statz: Resolvi li a transcrição do podcast para poder acompanhar melhor os detalhes da história.
 
@@ -14,6 +15,13 @@
 * [O Assassinato do Comendador 1], de Haruki Murakami
 * [O Assassinato do Comendador 2], de Haruki Murakami
 * [Agile Testing: A Practical Guide for Testers and Agile Teams], de Lisa Crispin e Janet Gregory
+
+## Primeiras frases:
+* A parábola do semeador, de Octavia Butler: "Para ressurgir das próprias cinzas uma fênix deve primeiro queimar"
+* Station Eleven, de Emily St. John Mandel: "The king stood in a pool of blue light, unmoored."
+* Metamorfose, the Franz Kafka: "Certa manhã, ao despertar de sonhos intranqüilos, Gregor Samsa encontrou-se em sua cama metamorfoseado num inseto monstruoso."
+* The Queen's Gambit, de Walter Tevis: "Beth learned of ther mother's death from a woman with a clipboard."
+* The hours, de Virginia Woolf: "Mrs. Dalloway said she would buy the flowers herself."
 
 ## Ler
 China Mieville

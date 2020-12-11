@@ -187,7 +187,7 @@ def countdown(n):
 def area(radius):
     return math.pi * radius**2
 ```
-* Cada caminho possível pelo programa deve ter um return:
+* Cada caminho possível do programa deve ter um return:
 ```
 def absolute_value(x):
     if x < 0:

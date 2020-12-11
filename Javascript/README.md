@@ -130,4 +130,7 @@ console.log(add(10, 6));
 let diceFace = document.getElementsByClassName("dice");
 diceFace[0].addEventListener("click", function(){...
 ```
+* Para iterar e alterar elementos de um array:
+`allDots.forEach(dot => dot.classList.remove(...dot.classList)) //remove as classes`
+
 [Markdown](https://guides.github.com/features/mastering-markdown/) / [ResizeImage](https://resizeimage.net/)
