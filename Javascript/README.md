@@ -132,5 +132,21 @@ diceFace[0].addEventListener("click", function(){...
 ```
 * Para iterar e alterar elementos de um array:
 `allDots.forEach(dot => dot.classList.remove(...dot.classList)) //remove as classes`
+* O método `includes()` verifica a existência de um elemento em um array or string dentro de outra: `nums.includes("doze")`
+* O método `every()` itera os elementos de um array, passando-os por uma função:
+```
+var ages = [32, 33, 12, 40];
+
+function checkAdult(age) {
+  return age >= 18;
+}
+
+if (ages.every(checkAdult)) {
+    document.getElementById("resposta").innerHTML = "Todos têm mais de 18 anos.";
+} else {
+    document.getElementById("resposta").innerHTML = "Nem todos têm mais de 18 anos.";
+};
+```
+* Ao usar o operador de negação `!` em uma condição, ele deve estar dentro dos parênteses. 
 
 [Markdown](https://guides.github.com/features/mastering-markdown/) / [ResizeImage](https://resizeimage.net/)
