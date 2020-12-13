@@ -133,9 +133,9 @@ diceFace[0].addEventListener("click", function(){...
 * Para iterar e alterar elementos de um array:
 `allDots.forEach(dot => dot.classList.remove(...dot.classList)) //remove as classes`
 * O método `includes()` verifica a existência de um elemento em um array or string dentro de outra: `nums.includes("doze")`
-* O método `every()` itera os elementos de um array, passando-os por uma função:
+* O método `every()` itera os elementos de um array, passando-os por uma função e retornando um boolean true se todos os elementos forem verdadeiros ou false, se algum não for:
 ```
-var ages = [32, 33, 12, 40];
+let ages = [32, 33, 12, 40];
 
 function checkAdult(age) {
   return age >= 18;
@@ -147,6 +147,17 @@ if (ages.every(checkAdult)) {
     document.getElementById("resposta").innerHTML = "Nem todos têm mais de 18 anos.";
 };
 ```
-* Ao usar o operador de negação `!` em uma condição, ele deve estar dentro dos parênteses. 
+* Ao usar o operador de negação `!` em uma condição, ele deve estar dentro dos parênteses.
+* Para converter strings em integers usamos `parseInt()`, mas ele não pode ser usado em um array, apenas em elementos únicos.
+* O método `filter()` cria um array com os elementos que retornarem de uma função:
+```
+let ages = [32, 33, 16, 40];
+function checkAdult(age) {
+  return age >= 18;
+}
+ages.filter(checkAdult); // [32, 33, 40]
+```
+* Funções arrow (similar ao lambda do Python) podem ser escritas em uma linha só, com parâmetros separados do corpo da função por `=>`. Se tiverem mais de um parâmetro, eles precisam estar entre parênteses. Se não houver parâmetros, usar `()`:
+`nums.filter(nums => nums % index != 0);`
 
 [Markdown](https://guides.github.com/features/mastering-markdown/) / [ResizeImage](https://resizeimage.net/)
