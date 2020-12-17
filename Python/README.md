@@ -66,9 +66,6 @@ while user_response != "please":
 * [Python para zumbis](https://www.youtube.com/playlist?list=PLUukMN0DTKCtbzhbYe2jdF4cr8MOWClXc)
 * [The Modern Python3 Bootcamp](https://www.udemy.com/course/the-modern-python3-bootcamp)
 
-## Resumos/Notas de livros
-* [Pense em Python](https://github.com/sheilagomes/diario-de-estudos/tree/main/Python/Livro%20Pense%20em%20Python)
-
 ## Referências
 * [Automate the boring stuff](https://automatetheboringstuff.com)
 * [Locust](locust.io/): Ferramenta de Testes de Performance escrita em python

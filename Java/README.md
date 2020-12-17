@@ -35,7 +35,7 @@ public class MyClass {
 * Todo programa Java tem um nome de classe que deve corresponder ao nome do arquivo e todo programa deve conter o método main().
 * Comentários de linha única começam com duas barras (//).
 * Comentários de várias linhas começam com `/*` e terminam com `*/`.
-* Para criar uma variável, você deve especificar o tipo e atribuir um valor a ela:
+* Para criar uma variável, é preciso especificar o tipo e atribuir um valor a ela:
 ```
 int myNum = 15;
 myFloatNum = 5.99f;
@@ -43,33 +43,32 @@ char myLetter = 'D';
 boolean myBool = true;
 String myText = "Hello";
 ```
-* Você também pode declarar uma variável sem atribuir o valor e atribuir o valor depois:
+* É possível declarar uma variável sem atribuir o valor e atribuir o valor depois:
 ```
 int myNum;
 myNum = 15;
 ```
-* Adicione a palavra-chave `final` para declarar a variável como "final" ou "constante", para que ela seja imutável e somente para leitura: `final int myNum = 15;`
-* O método `println()` é muitas vezes usado para exibir variáveis. Para combinar texto e variável, use o caractere +:
+* Se adicionar a palavra-chave `final` a variável é declarada como constante, para que ela seja imutável e somente para leitura: `final int myNum = 15;`
+* O método `println()` é muitas vezes usado para exibir variáveis. Para concatenar texto e variável, usamos `+`:
 ```
 String name = "John";
 System.out.println("Hello " + name);
 ```
-* Para declarar mais de uma variável do mesmo tipo, use uma lista separada por vírgulas:
+* Para declarar mais de uma variável do mesmo tipo, usamos uma lista separada por vírgulas:
 ```
 int x = 5, y = 6, z = 50;
 System.out.println(x + y + z);
 ```
-* Todas as variáveis ​​Java devem ser identificadas com nomes exclusivos chamados identificadores. É recomendável usar nomes descritivos para criar código compreensível e sustentável. As regras gerais para a construção de nomes para variáveis ​​(identificadores únicos) são: nomes podem conter letras, dígitos, sublinhados e cifrões, devem começar com uma letra, devem começar com uma letra minúscula e não podem conter espaços em branco, também podem começar com cifrão e sublinhado, os nomes diferenciam maiúsculas de minúsculas, as palavras reservadas não podem ser usadas como nomes.
+* Todas as variáveis ​​Java devem ser identificadas com nomes exclusivos chamados identificadores. As regras são: nomes podem conter letras, dígitos, sublinhados e cifrões, devem começar com uma letra, devem começar com uma letra minúscula e não podem conter espaços em branco, também podem começar com cifrão e sublinhado, os nomes diferenciam maiúsculas de minúsculas, as palavras reservadas não podem ser usadas como nomes.
 * Os tipos de dados são divididos em dois grupos: Primitivos (inclui byte, short, int, long, float, double, boolean e char) e não primitivos (String, Arrays e Classes)
 * O tipo de dados byte pode armazenar números inteiros de -128 a 127.
 * O tipo de dados short pode armazenar números inteiros de -32768 a 32767.
 * O tipo de dados int pode armazenar números inteiros de -2147483648 a 2147483647.
 * O tipo de dados long pode armazenar números inteiros de -9223372036854775808 a 9223372036854775807.
-* O tipo de dados float pode armazenar números fracionais de 3.4e−038 a 3.4e+038. Observe que é preciso terminar o número com um "f".
-* The double data type can store fractional numbers from 1.7e−308 to 1.7e+308. Note that you should end the value with a "d".
-* The char data type is used to store a single character. The character must be surrounded by single quotes, like 'A' or 'c'. Alternatively, you can use ASCII values to display certain characters:
-	char a = 65, b = 66, c = 67;
-* String values must be surrounded by double quotes. It is so much used and integrated in Java, that some call it "the special ninth type". A String in Java is actually a non-primitive data type, because it refers to an object. The String object has methods that is used to perform certain operations on strings.
+* O tipo de dados float pode armazenar números fracionais de 3.4e−038 a 3.4e+038. É preciso terminar o número com um "f".
+* O tipo de dados double pode armazenar números fracionais de 1.7e−308 a 1.7e+308. É preciso terminar o número com um "d".
+* O tipo de dados char pode armazenar um único caractere. O caractere deve estar entre aspas simples, como 'A' ou 'c'. Como alternativa, pode-se usar valores ASCII para exibir certos caracteres: `char a = 65, b = 66, c = 67;`
+* Os valores da string devem ser colocados entre aspas duplas. Uma String em Java é, na verdade, um tipo de dados não primitivo, porque se refere a um objeto.
 * Use float or double? The precision of float is only six or seven decimal digits, while double variables have a precision of about 15 digits. Therefore it is safer to use double for most calculations.
 * The main difference between primitive and non-primitive data types are: primitive types are predefined (already defined) in Java. Non-primitive types are created by the programmer and is not defined by Java (except for String). Non-primitive types can be used to call methods to perform certain operations, while primitive types cannot. A primitive type has always a value, while non-primitive types can be null. A primitive type starts with a lowercase letter, while non-primitive types starts with an uppercase letter. The size of a primitive type depends on the data type, while non-primitive types have all the same size. Examples of non-primitive types are Strings, Arrays, Classes, Interface, etc.
 * Type casting is when you assign a value of one primitive data type to another type. In Java, there are two types of casting: Widening Casting (automatically) - converting a smaller type to a larger type size (byte -> short -> char -> int -> long -> float -> double) and Narrowing Casting (manually) - converting a larger type to a smaller size type (double -> float -> long -> int -> char -> short -> byte)
@@ -192,6 +191,18 @@ String marca;
 ```
 * Se colocar o cursor em cima de uma variável ou parâmetro e apertar F3, a IDE leva à atribuição original (mostra de onde veio).
 * O modificador de acesso `public` torna a classe disponível para uso em outros pacotes. Se não for usado nenhum modificador, será usado o `default` e a classe só pode usada no próprio pacote em que está. Se for usado `private`, só a própria classe poderá acessar o que vem em seguida do modificador.
+* Os métodos construtores servem para fazer o encapsulamento do código, criando todas as variáveis como private e depois os métodos get (com retorno) e set (sem retorno):
+```
+  private String marca;
+  private String modelo;
+
+  public String getMarca() {
+    return marca;
+  }
+  public void setMarca(String marca) {
+    this.marca = marca;
+  }
+```
 
 ## Cursos em vídeo
 * [Curso completo DevDojo](https://www.youtube.com/watch?v=L151aRhoNSM&list=PL62G310vn6nHrMr1tFLNOYP_c73m6nAzL&index=34) - parei na aula 33

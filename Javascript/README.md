@@ -1,6 +1,6 @@
 # Javascript
 
-![Logo do Java](https://github.com/sheilagomes/diario-de-estudos/blob/main/Javascript/js-logo.png)
+![Logo do Javascript](https://github.com/sheilagomes/diario-de-estudos/blob/main/Javascript/js-logo.png)
 
 ## Dicas da linguagem
 * Ctrl + Shift + I no navegador pra abrir console
@@ -159,5 +159,17 @@ ages.filter(checkAdult); // [32, 33, 40]
 ```
 * Funções arrow (similar ao lambda do Python) podem ser escritas em uma linha só, com parâmetros separados do corpo da função por `=>`. Se tiverem mais de um parâmetro, eles precisam estar entre parênteses. Se não houver parâmetros, usar `()`:
 `nums.filter(nums => nums % index != 0);`
+* Para fazer entrada de dados por input do html e saída de resultado para html:
+```
+let inputWords = document.querySelector('input');
+inputWords.addEventListener('keyup', function(event) {
+    if (event.keyCode === 13) {
+        document.getElementsByClassName('teste')[0].innerHTML = `${insertDashes(inputWords.value)}`;
+    }
+});
+```
+
+## Artigos
+* [Understanding the DOM](https://dev.to/joshcarvel/properly-understanding-the-dom-2cg0)
 
 [Markdown](https://guides.github.com/features/mastering-markdown/) / [ResizeImage](https://resizeimage.net/)
