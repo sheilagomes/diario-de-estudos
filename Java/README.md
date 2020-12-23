@@ -4,18 +4,6 @@
 
 [Documentação oficial](https://docs.oracle.com/en/java/)
 
-## Dicas de IDEs
-### Eclipse/STS
-* Dois cliques no nome de uma janela faz a janela maximizar e minimizar
-* Para criar a expressão de impressão pulando linha digitar `sysout` e dar enter
-
-### Intellij
-* Para criar a expressão de impressão pulando linha digitar `sout` e dar enter
-* Para criar a expressão do main() digitar `psvm` e dar enter 
-* Para abrir ações usadas com frequência: Ctrl + Shift + A
-* Debug: F7 - entra no método, F8 - próximo passo, F9 - próximo breakpoint, Drop frame - volta início execução método atual
-* Entrar no método - Ctrl + Alt + B
-
 ## Dicas da linguagem
 * Boa prática ao nomear métodos é começar com verbo: `exibirAutonomia()`
 * Os números no Java são como uma roleta: se somar 1 ao limite, volta como negativos (fecha o círculo)

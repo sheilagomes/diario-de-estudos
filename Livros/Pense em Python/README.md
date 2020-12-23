@@ -195,10 +195,70 @@ def absolute_value(x):
     if x > 0:
         return x #se o valor de x for zero o programa derá um erro
 ```
-* Desenvolvimento incremental: para evitar longas sessões de depuração, acrescente e teste pequenas partes do código de cada vez, usando instruções print para depuração, e depois restirando-as. Códigos desse tipo são chamados de scaffolding, porque são úteis para construir o programa, mas não são parte do produto final.
-* Depois de verificar se o programa está funcionando, podemos torná-lo mais conciso compondo chamadas de função:
+* Desenvolvimento incremental: para evitar longas sessões de depuração, acrescente e teste pequenas partes do código de cada vez, usando instruções print para depuração, e depois retirando-as. Códigos desse tipo são chamados de scaffolding, porque são úteis para construir o programa, mas não são parte do produto final.
+* Depois de verificar se o programa está funcionando, podemos torná-lo mais conciso compondo chamadas de função (isso é composição):
 ```
 def circle_area(xc, yc, xp, yp):
     return area(distance(xc, yc, xp, yp))
 ```
-* 
+* Funções booleanas podem ser convenientes para esconder testes complicados dentro de funções:
+```
+def is_divisible(x, y):
+    if x % y == 0:
+        return True
+    else:
+        return False
+```
+* Como o resultado do operador == é um booleano, é possível escrever a função de forma mais concisa:
+```
+def is_divisible(x, y):
+    return x % y == 0
+```
+* Um bom exemplo de uso de recursividade é o cálculo de fatorial:
+```
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        recurse = factorial(n-1)
+        result = n * recurse
+        return result
+```
+* Outro exwemplo de recursividade é o cálculo de Fibonacci:
+```
+def fibonacci (n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
+```
+* E para fazer a validação dos valores que entram na função de Fibonacci:
+```
+def factorial (n):
+    if not isinstance(n, int):
+        print('Factorial is only defined for integers.')
+        return None
+    elif n < 0:
+        print('Factorial is not defined for negative integers.')
+        return None
+    elif n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+```
+* É uma boa idea quebrar um grande programa em funções menores para criar controles naturais de depuração:
+```
+def factorial(n):
+    space = ' ' * (4 * n)
+    print(space, 'factorial', n)
+    if n == 0:
+        print(space, 'returning 1')
+        return 1
+    else:
+        recurse = factorial(n-1)
+        result = n * recurse
+        print(space, 'returning', result)
+        return result
+```

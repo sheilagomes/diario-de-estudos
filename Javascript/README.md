@@ -168,6 +168,7 @@ inputWords.addEventListener('keyup', function(event) {
     }
 });
 ```
+* Um array criado com `const` pode receber valores com `push()`, mas não pode receber o resultado de uma operação com `split()` 
 
 ## Artigos
 * [Understanding the DOM](https://dev.to/joshcarvel/properly-understanding-the-dom-2cg0)

@@ -4,6 +4,7 @@ Coletânea de anotações e recursos de estudo de tudo o que me interessa (ideia
 * [Acessibilidade](https://github.com/sheilagomes/diario-de-estudos/tree/main/Acessibilidade)
 * [Banco de dados](https://github.com/sheilagomes/diario-de-estudos/tree/main/BD)
 * [CSS](https://github.com/sheilagomes/diario-de-estudos/tree/main/CSS)
+* [HTML](https://github.com/sheilagomes/diario-de-estudos/tree/main/HTML)
 * [Java](https://github.com/sheilagomes/diario-de-estudos/tree/main/Java)
 * [Javascript](https://github.com/sheilagomes/diario-de-estudos/tree/main/Javascript)
 * [Linux](https://github.com/sheilagomes/diario-de-estudos/tree/main/Linux)
