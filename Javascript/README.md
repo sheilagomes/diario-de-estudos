@@ -123,7 +123,7 @@ function add(num1, num2) {
 
 console.log(add(10, 6));
 ```
-* Para reverter uma string: `str.split('').reverse().join('')`
+* Para inverter uma string: `str.split('').reverse().join('')`
 * Substituição globa com replace: `replace(/,/g, "") // /,/g faz substituição global da vírgula`
 * Ao usar um event listener obtido do DOM com getElementsByClassName é preciso colocar o índice do elemento obtido:
 ```
@@ -133,7 +133,7 @@ diceFace[0].addEventListener("click", function(){...
 * Para iterar e alterar elementos de um array:
 `allDots.forEach(dot => dot.classList.remove(...dot.classList)) //remove as classes`
 * O método `includes()` verifica a existência de um elemento em um array or string dentro de outra: `nums.includes("doze")`
-* O método `every()` itera os elementos de um array, passando-os por uma função e retornando um boolean true se todos os elementos forem verdadeiros ou false, se algum não for:
+* O método `every()` itera os elementos de um array, passando-os por uma função e retornando um boolean true (se todos os resultados forem verdadeiros) ou false (se algum não for):
 ```
 let ages = [32, 33, 12, 40];
 
