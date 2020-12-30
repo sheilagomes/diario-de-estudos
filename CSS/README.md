@@ -194,4 +194,9 @@ body {
     ::selection
 ```
 
+## Referências
+* [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+* [Color names](https://htmlcolorcodes.com/color-names/)
+* [Color picker](https://htmlcolorcodes.com/color-picker/)
+
 [Markdown](https://guides.github.com/features/mastering-markdown/) / [ResizeImage](https://resizeimage.net/)

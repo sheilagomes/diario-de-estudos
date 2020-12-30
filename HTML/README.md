@@ -6,7 +6,40 @@
 * Comentários no html: `<!-- Um comentário -->`
 * Inverter horizontalmente ícones do Font Awesome: `<i class="far fa-star-half fa-flip-horizontal"></i>`
 * [Entidades HTML](https://dev.w3.org/html5/html-author/charref) começam com `&` e terminam com `;`. São usadas ​​para exibir caracteres reservados, que normalmente seriam inválidos, ou no lugar de caracteres difíceis de digitar: `&#9824; <!-- naipe de espadas -->`
-
+* Para criar tabelas:
+```
+<table> 
+    <thead> <!-- Cabeçalho -->
+        <tr>
+            <th rowspan="2">Animal</th> <!-- ocupa duas linha -->
+            <th colspan="2">Average Mass</th> <!-- ocupa duas colunas para aninhar -->
+        </tr>
+        <tr>
+            <th>kg</th> <!-- aninhado na coluna acima -->
+            <th>lb</th> <!-- aninhado na coluna acima -->
+        </tr>
+    </thead>
+    <tbody> <!-- Corpo -->
+        <tr> <!-- linha de conteúdo -->
+            <td>Ostrich</td>
+            <td>104</td>
+            <td>230</td>
+        </tr>
+    </tbody>
+</table>
+```
+* Em formulários, o padrão para `button` é a ação `submit`, se quiser um botão inativo, definir como `type="button"`
+* O atributo `name` serve para enviar os dados do formulário ao servidor, de acordo com a ação determinada pelo formulário. É o que aparece na barra do navegador depois de apertar no botão de envio, no final do endereço: `?username=Sheila&age=49`
+* As funções de cada atributo no input são: `id` para conectar ao label, `name` para o valor a enviar ao servidor, `placeholder` para imprimir texto de ajuda, `value` para determinar o valor dentro de um conjunto de escolhas
+```
+<label for="first">First name</label>
+<input type="text" name="first" id="first" placeholder="Type your first name">
+<input type="radio" name="race" id="fun" value="fun">
+<label for="fun">Fun Run 5k</label><br>
+<input type="radio" name="race" id="half" value="half">
+<label for="half">Half Marathon</label><br>
+```
+* Existem várias [validações](https://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/Forms/Form_validation) que podem ser incluídas no código em formulários, além de poder exigir o preenchimento de campos específicos em padrões determinados. Alguns padrões básicos são especificados pelo tipo, como `email` ou `url`.
 
 ## Referências
 * [MDN HTML elements references](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
