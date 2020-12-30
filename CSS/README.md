@@ -119,7 +119,7 @@ grid-template: repeat(2, 50px) / repeat(3, 1fr); /* 2 linhas, 3 colunas */
 ```
 * No grid, `justify-content` alinha o conteúdo inteiro de um div em relação às linhas, e `align-content`, em relação às colunas.
 * Para distribuir conteúdo de forma equidistante entre os elementos e os limites laterais, usamos `justify-content: space-evenly`. A diferença entre ele e o `justify-content: space-around` é que o segundo usa só a metade do espaço disponível nas laterais.
-* Outras formas de distribuir o conteúdo interno de elementos são `justify-items`, `align-items`, `justify-self` e `align-self`, os primeiros para todos os elementos, os últimos, para elementos indiviuais:
+* Outras formas de distribuir o conteúdo interno de elementos são `justify-items`, `align-items`, `justify-self` e `align-self`, os primeiros para todos os elementos, os últimos, para elementos individuais:
 ```
 .container {
     height: 100%; 
@@ -139,11 +139,59 @@ grid-template: repeat(2, 50px) / repeat(3, 1fr); /* 2 linhas, 3 colunas */
 ```
 * A diferença entre `auto-fit` e `auto-fill` é que o primeiro vai esticar os elementos mesmo em telas maiores, e o segundo vai manter o tamanho especificado em `minmax` depois que todos os elementos estiverem alinhados.
 * É possível usar flexbox e grid simultaneamente, sempre lembrando que o primeiro trabalha de forma unidimensional, e o segundo, de forma bidimensional.
-* Flexbox é content-first e grid, layout-first.
+* Flexbox prioriza o conteúdo, e grid, o layout.
 * Uma forma de posicionar elementos na extremidade direita (nesse caso, o terceiro elemento dentro um div):
 ```
 .flexbox-header > div:nth-child(3) {
     margin-left: auto;
 }
 ```
+* Uma forma de fazer o rodapé grudar na base da tela é tornar o corpo um elemento flexível verticalmente. Em seguida, criamos a altura mínima com base na janela de visualização. A propriedade força o bloco de conteúdo a ocupar o espaço entre o conteúdo e o rodapé:
+```
+HTML:
+<div class="content">
+  Content goes here
+</div>
+<footer>
+  I'm a sticky footer
+</footer>
+
+CSS:
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.content {
+  flex: 1 0 auto;
+}
+```
+* Outra forma de fazer o rodapé grudar na base da tela é usar o grid, criando 2 linhas no corpo e assim o conteúdo expande o quanto precisar ou puder preencher, e como o rodapé é automático, assume o tamanho do texto determinado no html:
+```
+HTML:
+<div class="content">
+  Content goes here
+</div>
+<footer>
+  I'm a sticky footer
+</footer>
+
+CSS:
+body {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  min-height: 100vh;
+}
+```
+* Para inverter uma imagem horizontalmente:
+`transform: scaleX(-1);`
+* [Pseudo-elementos](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) são usados para alterar uma parte de um elemento, sempre começarm com :: e estes são alguns deles:
+```
+    ::first-line
+    ::first-letter
+    ::before
+    ::after
+    ::selection
+```
+
 [Markdown](https://guides.github.com/features/mastering-markdown/) / [ResizeImage](https://resizeimage.net/)

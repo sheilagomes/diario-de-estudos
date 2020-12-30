@@ -5,6 +5,7 @@
 [Documentação oficial](https://docs.python.org/3/)
 
 ## Dicas da linguagem
+* Para sair do terminal do Python: Ctrl + D
 * Nomes de variáveis devem seguir estas regras: (1) devem começar com letra ou sublinhado, (2) o resto do nome deve ter letras, número e sublinhados, (3) diferenciam maiúsculas de minúsculas
 - Convenções de nomeação no Python:
   - (1) variáveis seguem caso cobra: `snake_case`

@@ -2,6 +2,12 @@
 
 ## Dicas gerais
 
+* [Emmet](https://docs.emmet.io/) pra escrever menos e fazer mais: `!` pra começar, `>` pra aninhar elementos, `+` pra fazer uma seuqência de lementos não aninhados, `*` pra multiplicar por ex.:
+```
+div>ul>li*5
+h1+h2+h3
+```
+
 ### Sublime
 * Pra mostrar o menu de novo no Sublime, CTRL+Shift+P > Menu > View: Toggle menu
 * Para instalar pacotes: CTRL+Shift+P > Package Control: Install Package
