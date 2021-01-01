@@ -193,10 +193,21 @@ body {
     ::after
     ::selection
 ```
+* Ao definir o estilo para vários estados de link, esta ordem deve ser seguida: `a:link, a:visited, a:hover, a:active`
+* Para centralizar elementos horizontal e verticalmente:
+```
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+```
 
 ## Referências
 * [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 * [Color names](https://htmlcolorcodes.com/color-names/)
 * [Color picker](https://htmlcolorcodes.com/color-picker/)
+* [Extrator de cores de imagens](http://colormind.io/)
+* [CSS fonts](https://www.cssfontstack.com/)
+* [Coolors Color Palette](https://coolors.co/palettes/trending)
 
 [Markdown](https://guides.github.com/features/mastering-markdown/) / [ResizeImage](https://resizeimage.net/)

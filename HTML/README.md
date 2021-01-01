@@ -4,6 +4,7 @@
 
 ## Dicas gerais
 * Comentários no html: `<!-- Um comentário -->`
+* Font Awesome dentro do head: `<script src="https://kit.fontawesome.com/ef442ab3a4.js" crossorigin="anonymous"></script>`
 * Inverter horizontalmente ícones do Font Awesome: `<i class="far fa-star-half fa-flip-horizontal"></i>`
 * [Entidades HTML](https://dev.w3.org/html5/html-author/charref) começam com `&` e terminam com `;`. São usadas ​​para exibir caracteres reservados, que normalmente seriam inválidos, ou no lugar de caracteres difíceis de digitar: `&#9824; <!-- naipe de espadas -->`
 * Para criar tabelas:
