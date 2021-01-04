@@ -201,6 +201,12 @@ flex-direction: column;
 justify-content: center;
 align-content: center;
 ```
+* Para afetar elementos descendentes, usar um espaço entre ascendente e descendente:
+```
+li a {
+  color: red;
+}
+```
 
 ## Referências
 * [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)

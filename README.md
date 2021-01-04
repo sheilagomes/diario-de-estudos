@@ -5,6 +5,7 @@ Coletânea de anotações e recursos de estudo de tudo o que me interessa (ideia
 * [Banco de dados](https://github.com/sheilagomes/diario-de-estudos/tree/main/BD)
 * [CSS](https://github.com/sheilagomes/diario-de-estudos/tree/main/CSS)
 * [Django](https://github.com/sheilagomes/diario-de-estudos/tree/main/Django)
+* [Figma](https://github.com/sheilagomes/diario-de-estudos/tree/main/Figma)
 * [HTML](https://github.com/sheilagomes/diario-de-estudos/tree/main/HTML)
 * [IDEs](https://github.com/sheilagomes/diario-de-estudos/tree/main/IDE)
 * [Java](https://github.com/sheilagomes/diario-de-estudos/tree/main/Java)
