@@ -193,6 +193,12 @@ body {
     ::after
     ::selection
 ```
+* [Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) são usadas para definir estados de elementos, como links, que podem ter estados como ativo, visitado ou sob o ponteiro. Por exemplo, para tirar o sublinhado dos links:
+```
+a:link {
+  text-decoration: none;
+}
+```
 * Ao definir o estilo para vários estados de link, esta ordem deve ser seguida: `a:link, a:visited, a:hover, a:active`
 * Para centralizar elementos horizontal e verticalmente:
 ```
@@ -207,6 +213,22 @@ li a {
   color: red;
 }
 ```
+* Usar `+` para selecionar elementos adjacentes, mas não descendentes: `h2 + button` (neste caso, os primeiros botões em seguida de todos os h2)
+* Para selecionar um descendente direto usar `>`, como no exemplo: `footer > a` (outros descendentes em níveis mais internos não serão selecionados)
+* Para selecionar por atributo, usar `[]`, por exemplo: `input[text="pos"]` para selecionar todos os `input` do tipo texto equivalentes a `pos`
+* Usando pseudo-classes, para selecionar elementos específicos por posição, somente a primeira ocorrência da terceira posição: `post:nth-of-type(3)`. E para selecionar todas as ocorrências a cada 2, ou seja, um sim, um não: `post:nth-of-type(2n)`
+* Pra fazer um tabuleiro de xadrez com quadrados definidos por divs e css: 
+```
+square {
+  background-color: black;
+}
+square:nth-of-type(2n) {
+  background-color: white;
+}
+```
+* A ordem de [especificidade](https://specificity.keegan.st/) é id > classes, atributos e pseudo-classes > elementos e pseudo-elementos, mas estilos em linha são mais específicos ainda, e seu uso não é recomendado: `<p style="color: blue;">azul</p>`
+* A propriedade `inherit` é usada para herdar os estilos superiores da ordem de ocorrência e especificidade, mas nem todos os elementos aceitam
+* Para a borda não ultrapassar o tamanho do elemento em que está: `box-sizing: border-box;`
 
 ## Referências
 * [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
