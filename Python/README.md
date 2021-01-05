@@ -1,7 +1,5 @@
 # Python
 
-![Logo do python](https://github.com/sheilagomes/diario-de-estudos/blob/main/Python/python-logo.png)
-
 [Documentação oficial](https://docs.python.org/3/)
 
 ## Dicas da linguagem

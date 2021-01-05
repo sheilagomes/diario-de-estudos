@@ -1,7 +1,5 @@
 # Linux
 
-![Logo do linux](https://github.com/sheilagomes/diario-de-estudos/blob/main/Linux/logo-linux.png)
-
 ## Dicas gerais
 * Para saber qual é o diretório atual: `pwd`
 * Para excluir um diretório criado: `rm -r nomeDoDiretorio`

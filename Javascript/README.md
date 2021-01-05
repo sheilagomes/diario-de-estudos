@@ -1,7 +1,5 @@
 # Javascript
 
-![Logo do Javascript](https://github.com/sheilagomes/diario-de-estudos/blob/main/Javascript/js-logo.png)
-
 ## Dicas da linguagem
 * Ctrl + Shift + I no navegador pra abrir console
 * Usar `let` Para criar variáveis que podem ser alteradas:

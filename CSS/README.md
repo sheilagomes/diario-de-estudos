@@ -1,7 +1,5 @@
 # CSS
 
-![Logo do CSS](https://github.com/sheilagomes/diario-de-estudos/blob/main/CSS/css-logo.png)
-
 ## Dicas gerais
 * Comentários no CSS: `/* para uma ou mais linhas */`
 * No grid-template-areas não pode usar só números para definir cada área:

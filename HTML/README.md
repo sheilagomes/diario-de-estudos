@@ -1,7 +1,5 @@
 # HTML
 
-[Logo do HTML](https://github.com/sheilagomes/diario-de-estudos/blob/main/HTML/html-logo.png)
-
 ## Dicas gerais
 * Comentários no html: `<!-- Um comentário -->`
 * Font Awesome dentro do head: `<script src="https://kit.fontawesome.com/ef442ab3a4.js" crossorigin="anonymous"></script>`

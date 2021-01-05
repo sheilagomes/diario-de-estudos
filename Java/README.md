@@ -1,7 +1,5 @@
 # Java
 
-![Logo do Java](https://github.com/sheilagomes/diario-de-estudos/blob/main/Java/java-logo.png)
-
 [Documentação oficial](https://docs.oracle.com/en/java/)
 
 ## Dicas da linguagem
