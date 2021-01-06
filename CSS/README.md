@@ -227,6 +227,9 @@ square:nth-of-type(2n) {
 * A ordem de [especificidade](https://specificity.keegan.st/) é id > classes, atributos e pseudo-classes > elementos e pseudo-elementos, mas estilos em linha são mais específicos ainda, e seu uso não é recomendado: `<p style="color: blue;">azul</p>`
 * A propriedade `inherit` é usada para herdar os estilos superiores da ordem de ocorrência e especificidade, mas nem todos os elementos aceitam
 * Para a borda não ultrapassar o tamanho do elemento em que está: `box-sizing: border-box;`
+* Ao usar `em` como medida, em vez de `px`, os elementos se ajustam aos elementos ascendentes. Já o `rem` (root em) se baseia na medida do documento como um todo, o que pode ser alterado com a tag `html` no css.
+* Três formas de usar transparência: `color: rgba(0, 209, 112, 0.5)`, `opacity: 0.5` e `color: #657890ff`
+* [Transições](https://easings.net/) usam o nome de uma propriedade, a duração, tempo e atraso.
 
 ## Referências
 * [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
