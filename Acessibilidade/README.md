@@ -22,6 +22,7 @@ Use elementos HTML semânticos como `<main>`, `<nav>`, `<header>`, `<section>`, 
 
 ## Artigos
 * [11 Golden Rules for A11Y](https://dev.to/ezgihendrickx/11-golden-rules-for-a11y-146c)
+* [The best web accessibility tools for developers in 2021](https://dev.to/jaketracey/the-best-web-accessibility-tools-for-developers-in-2021-8c8)
 
 ## Twitter
 * [Wendy Fox](https://twitter.com/drwendyfox)
@@ -30,5 +31,8 @@ Use elementos HTML semânticos como `<main>`, `<nav>`, `<header>`, `<section>`, 
 * [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)
 * [Introduction to Web Accessibility](https://www.edx.org/course/web-accessibility-introduction)
 * [Web Accessibility](https://www.webaccessibility.com/)
+* [Accessibility - Mozilla](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
+* [Smashing magazine](https://www.smashingmagazine.com/category/accessibility)
+* [CSS tricks](https://css-tricks.com/tag/accessibility/)
 
 [Markdown](https://guides.github.com/features/mastering-markdown/) / [ResizeImage](https://resizeimage.net/)

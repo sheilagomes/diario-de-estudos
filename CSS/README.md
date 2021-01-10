@@ -135,7 +135,13 @@ grid-template: repeat(2, 50px) / repeat(3, 1fr); /* 2 linhas, 3 colunas */
  //   align-self: end;
 }
 ```
-* A diferença entre `auto-fit` e `auto-fill` é que o primeiro vai esticar os elementos mesmo em telas maiores, e o segundo vai manter o tamanho especificado em `minmax` depois que todos os elementos estiverem alinhados.
+* A diferença entre `auto-fit` e `auto-fill` é que o primeiro vai esticar os elementos mesmo em telas maiores, e o segundo vai manter o tamanho especificado em `minmax` depois que todos os elementos estiverem alinhados:
+```
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+}
+```
 * É possível usar flexbox e grid simultaneamente, sempre lembrando que o primeiro trabalha de forma unidimensional, e o segundo, de forma bidimensional.
 * Flexbox prioriza o conteúdo, e grid, o layout.
 * Uma forma de posicionar elementos na extremidade direita (nesse caso, o terceiro elemento dentro um div):
@@ -226,10 +232,62 @@ square:nth-of-type(2n) {
 ```
 * A ordem de [especificidade](https://specificity.keegan.st/) é id > classes, atributos e pseudo-classes > elementos e pseudo-elementos, mas estilos em linha são mais específicos ainda, e seu uso não é recomendado: `<p style="color: blue;">azul</p>`
 * A propriedade `inherit` é usada para herdar os estilos superiores da ordem de ocorrência e especificidade, mas nem todos os elementos aceitam
-* Para a borda não ultrapassar o tamanho do elemento em que está: `box-sizing: border-box;`
+* Para a borda não ultrapassar o tamanho do elemento em que está, colocar na tag `html`: `box-sizing: border-box;`
 * Ao usar `em` como medida, em vez de `px`, os elementos se ajustam aos elementos ascendentes. Já o `rem` (root em) se baseia na medida do documento como um todo, o que pode ser alterado com a tag `html` no css.
 * Três formas de usar transparência: `color: rgba(0, 209, 112, 0.5)`, `opacity: 0.5` e `color: #657890ff`
 * [Transições](https://easings.net/) usam o nome de uma propriedade, a duração, tempo e atraso.
+* [Transformações](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform) podem variar entre posição, rotação e inclinação e podem ser aplicados a seções interiores ou elementos individuais.
+* Para criar sites responsivos mobile-first:
+```
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+```
+* Para fazer cálculos no css: 
+```
+img { 
+  width: 30%;
+  margin: calc(10%/6);
+}
+* Lembrar que, ao usar flexbox, ele funciona por eixos (principal e perpendicular) e que quando se inverte a direção dos elementos com algum comando, os eixos tabém mudam.
+```
+* Uma forma de criar bordas sem usar `border` e sem usar espaço extra ou deslocar outros elementos é:
+```
+img {
+  outline: 3px solid lime;
+  outline-offset: -1.5em; /* cria borda interna*/
+}
+```
+* É possível desativar o `outline` que o navegador usa para indicar o elemento ativo, para que não fique um retângulo destacando elementos com outros formatos, mas é uma boa ideia ativar outra forma de indicar o elemento ativo, como um `background` diferente, por ex.
+* Normalmente `outline` não tem suporte em navegadores para controlar cantos da mesma forma que `border-radius`, exceto o Firefox, que tem uma propriedade não padronizada para isso: `-moz-outline-radius`
+* Uma forma de tentar resolver problemas com rolagem horizontal indesejada é identificar oq ue causa a rolagem, usando:
+```
+* {
+  outline: 3px solid red; /* contorna todos os elementos sem deslocá-los */
+}
+```
+* Uma forma de criar um contorno visual transparente que não afeta o resto do site:
+`outline: 50px solid rgba(0, 0, 0, .5);` Outra forma é usar box-shadow: `box-shadow: 0 0 0 50px rgba(0, 0, 0, .5);`
+* Variáveis podem ser declaradas em qualquer parte do documento, mas a ideia de fazer isso no `:root` é que elas possam ser usadas de forma global.
+* Uma boa forma de usar variáveis é redefini-las em media queries para criar responsividade.
+* Para usar um fundo e uma cor:
+```
+body {
+  background: black url(//unsplash.it/100/100) no-repeat;
+}
+```
+* Para ter fundo com duas imagens misturadas:
+```
+body {
+  height: 100vh;
+  background-image: linear-gradient(45deg, red, blue), url(//unsplash.it/1200/600);
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+```
+
 
 ## Referências
 * [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
@@ -238,5 +296,8 @@ square:nth-of-type(2n) {
 * [Extrator de cores de imagens](http://colormind.io/)
 * [CSS fonts](https://www.cssfontstack.com/)
 * [Coolors Color Palette](https://coolors.co/palettes/trending)
+* [Media Queries Breakpoints For Responsive Design In 2021](https://devfacts.com/media-queries-breakpoints-2021/)
+* [CSS Tools: Reset CSS](https://meyerweb.com/eric/tools/css/reset/)
+* [CSS backgrounds](https://www.kevinpowell.co/article/im-always-surprised-more-people-dont-know-about-this)
 
 [Markdown](https://guides.github.com/features/mastering-markdown/) / [ResizeImage](https://resizeimage.net/)
