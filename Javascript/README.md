@@ -167,8 +167,28 @@ inputWords.addEventListener('keyup', function(event) {
 });
 ```
 * Um array criado com `const` pode receber valores com `push()`, mas não pode receber o resultado de uma operação com `split()` 
+* É possível interagir com variáveis SASS direto no [Javascript](https://codepen.io/kevinpowell/pen/47a7913feb4cff477b0c9d7b0fe2008a)
+* Coisas que dá pra fazer com um operador spread: copiar um array, combinar arrays, adicionar um item a um array, adicionar uma propriedade a um objeto, usar funções Math(), Spread array as function arguments, passar argumentos ilimitados a uma função, converter um nodeList em um array, desestruturar um objeto e explodir uma string.
+* Como usar o operador spread(...) para unir arrays:
+```
+const arr1 [1,2,3];
+const arr2 [4,5,6];
+const arr3 [...arr1, ...arr2];
+console.log(arr3);
+// [ 1, 2, 3, 4, 5, 6 ]
+```
+* O operador spread também pode ser usado como o método push():
+```
+let arr1 = ['this', 'is', 'an'];
+arr1 = [...arr1, 'array'];
+console.log(arr1);
+// [ 'this', 'is', 'an', 'array' ]
+```
 
 ## Artigos
 * [Understanding the DOM](https://dev.to/joshcarvel/properly-understanding-the-dom-2cg0)
+
+## Referências
+* [CSS Variables - manipulating them with JavaScript](https://youtu.be/cZ0yt67A7OM)
 
 [Markdown](https://guides.github.com/features/mastering-markdown/) / [ResizeImage](https://resizeimage.net/)

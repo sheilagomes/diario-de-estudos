@@ -287,7 +287,15 @@ body {
   background-blend-mode: multiply;
 }
 ```
-
+* Para definir `align-items` e `justify-items` ao mesmo tempo, usar `place-items: <align-items> / <justify-items>`
+* Abreviação para grid de imagens sem intervalo entre elas:
+```
+#projects {
+  display: grid;
+  grid: auto / repeat(auto-fit, minmax(300px, 1fr));
+}
+```
+* Para eliminar os efeitos de animação em criações mobile-first ao fazer o media query é possível usar `all: unset` e todos os efeitos são removidos
 
 ## Referências
 * [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
