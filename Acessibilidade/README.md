@@ -14,8 +14,9 @@
 * Crie botões grandes! Desta forma, fica mais claro que este é um botão clicável e que chama à uma ação.
 * Crie links compreensíveis para deixar o usuário saber onde clicar e onde ir.
 Use elementos HTML semânticos como `<main>`, `<nav>`, `<header>`, `<section>`, `<article>`, `<form>`
-* Use funções de referência [ARIA](https://www.w3.org/TR/wai-aria-practices/examples/landmarks/main.html) para adicionar contexto aos elementos HTML.
+* Use funções de referência [ARIA](https://www.w3.org/TR/wai-aria-practices/examples/landmarks/main.html) para adicionar contexto aos elementos HTML. Mas apenas se você já não está usando HTML semântico, que fornece a leitores de tela o mesmo tipo de informação que as funçẽos ARIA.
 * [A11Y Project](https://www.a11yproject.com/) é um checklist de acessibilidade para iniciantes.
+* WAI-ARIA: Web Accessibility Initiative - Accessible Rich Internet Applications
 
 ## Podcasts
 * [Web accessibility](https://github.com/ladybug-podcast/ladybug-website/blob/master/transcripts/53-accessibility.md)

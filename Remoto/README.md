@@ -24,5 +24,6 @@ Comentários sobre alguns sites:
 * [Remote tools](https://www.remote.tools)
 * [The Remote Clan](https://remoteclan.com/)
 * [Flexiple](https://flexiple.com/freelancers/)
+* [18 melhores sites para freelancers](https://www.hostinger.com.br/tutoriais/sites-de-freelancer)
 
 [Markdown](https://guides.github.com/features/mastering-markdown/) / [ResizeImage](https://resizeimage.net/)
