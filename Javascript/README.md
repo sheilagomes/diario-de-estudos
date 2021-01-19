@@ -184,6 +184,14 @@ arr1 = [...arr1, 'array'];
 console.log(arr1);
 // [ 'this', 'is', 'an', 'array' ]
 ```
+* Métodos para obter o timestamp:
+```
+new Date().getTime();
+new Date().valueOf();
+Date.now(); // exceto em navegadores antigos
+```
+* Como o JS traz o timestamp em milissegundos, para saber o número de segundos é preciso dividir por 1000: `Math.floor(new Date().getTime() / 1000);`
+* Para converter o timestamp em uma data legível, usar o número em milissegundos e o método `toString`: `new Date(1610341839403).toString();`
 
 ## Artigos
 * [Understanding the DOM](https://dev.to/joshcarvel/properly-understanding-the-dom-2cg0)

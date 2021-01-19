@@ -39,6 +39,7 @@
 <label for="half">Half Marathon</label><br>
 ```
 * Existem várias [validações](https://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/Forms/Form_validation) que podem ser incluídas no código em formulários, além de poder exigir o preenchimento de campos específicos em padrões determinados. Alguns padrões básicos são especificados pelo tipo, como `email` ou `url`.
+* Curiosidade extra: as extensões de urls que contêm `?utm...` significam Urchin Tracking Module e são variáveis personalizados do Google Analytics para rastreamento padrão de tráfego. São cinco: fonte da campanha (utm_source), meio da campanha (utm_medium), nome da campanha (utm_campaign), termo da campanha (utm_term) e conteúdo da campanha (utm_content). Os atributos são sempre usado sem parênteses: `https://example.com/?utm_source=facebook&utm_medium=cpc&utm_campaign=spring+sale&utm_term=green+cta&utm_content=lifestyle+image`
 
 ## Referências
 * [MDN HTML elements references](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
