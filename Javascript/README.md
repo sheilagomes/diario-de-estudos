@@ -192,6 +192,37 @@ Date.now(); // exceto em navegadores antigos
 ```
 * Como o JS traz o timestamp em milissegundos, para saber o número de segundos é preciso dividir por 1000: `Math.floor(new Date().getTime() / 1000);`
 * Para converter o timestamp em uma data legível, usar o número em milissegundos e o método `toString`: `new Date(1610341839403).toString();`
+* A diferença técnica entre um framework e uma biblioteca está em um termo chamado inversão de controle. Quando você usa uma biblioteca, fica responsável pelo fluxo do aplicativo. Você escolhe quando e onde usar a biblioteca. Quando você usa um framework, ele é responsável pelo fluxo.
+* Expressões de função são funções sem nome atribuídas a uma variável e são chamadas da mesma forma que uma função normal:
+```
+const add = function (num1, num2) { return num1 + num2 };
+add(3,4); // 7
+```
+* É possível passar uma função como argumento de outra, mas daí o argumento não precisa dos parênteses:
+```
+function soma(num1, num2) {
+    return num1 + num2;
+};
+
+function doTwice(func) {
+    console.log(func(1,2));
+    console.log(func(1,2));
+};
+
+doTwice(soma); // 3, 3
+```
+* É possível criar uma factory function, ou fábrica de funções, usando uma função como retorno:
+```
+function makeBetweenFunc(min, max) {
+    return function (num) {
+        return num >= min && num <= max;
+    }
+}
+
+const teste = makeBetweenFunc(1, 10);
+
+console.log(teste(10)); // true
+```
 
 ## Artigos
 * [Understanding the DOM](https://dev.to/joshcarvel/properly-understanding-the-dom-2cg0)

@@ -296,6 +296,21 @@ body {
 }
 ```
 * Para eliminar os efeitos de animação em criações mobile-first ao fazer o media query é possível usar `all: unset` e todos os efeitos são removidos
+* Para iniciar o CSS eliminando margens internas e externas:
+```
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+```
+* Para alterar o estilo dos placeholders:
+```
+::placeholder {
+  color: blue;
+  font-size: 1.5em;
+}
+```
 
 ## Referências
 * [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)

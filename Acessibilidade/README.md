@@ -14,9 +14,21 @@
 * Crie botões grandes! Desta forma, fica mais claro que este é um botão clicável e que chama à uma ação.
 * Crie links compreensíveis para deixar o usuário saber onde clicar e onde ir.
 Use elementos HTML semânticos como `<main>`, `<nav>`, `<header>`, `<section>`, `<article>`, `<form>`
-* Use funções de referência [ARIA](https://www.w3.org/TR/wai-aria-practices/examples/landmarks/main.html) para adicionar contexto aos elementos HTML. Mas apenas se você já não está usando HTML semântico, que fornece a leitores de tela o mesmo tipo de informação que as funçẽos ARIA.
+* Use funções de referência [ARIA](https://www.w3.org/TR/wai-aria-practices/examples/landmarks/main.html) para adicionar contexto aos elementos HTML. Mas apenas se você já não está usando HTML semântico, que fornece a leitores de tela o mesmo tipo de informação que as funções ARIA.
 * [A11Y Project](https://www.a11yproject.com/) é um checklist de acessibilidade para iniciantes.
 * WAI-ARIA: Web Accessibility Initiative - Accessible Rich Internet Applications
+* Uma forma de usar etiquetas aria para resolver um efeito de escrita de máquina de escrever feito em JS:
+```
+<h1 id="typewriter-effect" aria-label="Developer, designer and coffee addict">
+  <span id="text" aria-hidden="true"></span>
+</h1>
+```
+* Se estiver usando um ícone de hambúrguer do FontAwesome, Bootstrap ou uma imagem, use os atributos aria-label e aria-hidden para fornecer alternativas aos leitores de tela:
+```
+<a href="#" aria-label="Collapse or expand the menu">
+  <i class="fas fa-bars" aria-hidden="true"></i>
+</a>
+```
 
 ## Podcasts
 * [Web accessibility](https://github.com/ladybug-podcast/ladybug-website/blob/master/transcripts/53-accessibility.md)
@@ -24,6 +36,11 @@ Use elementos HTML semânticos como `<main>`, `<nav>`, `<header>`, `<section>`, 
 ## Artigos
 * [11 Golden Rules for A11Y](https://dev.to/ezgihendrickx/11-golden-rules-for-a11y-146c)
 * [The best web accessibility tools for developers in 2021](https://dev.to/jaketracey/the-best-web-accessibility-tools-for-developers-in-2021-8c8)
+* [The problem with the "typewriter” effect and how to fix it](
+https://dev.to/savvasstephnds/the-problem-with-the-typewriter-effect-and-how-to-fix-it-2731)
+* [The problem with the hamburger menu and how to fix it](
+https://dev.to/savvasstephnds/your-hamburger-menu-button-is-inaccessible-here-s-how-to-fix-it-7n)
+* [The problem with autocomplete and how to fix it](https://dev.to/savvasstephnds/the-problem-with-autocomplete-and-how-to-fix-it-2ill)
 
 ## Twitter
 * [Wendy Fox](https://twitter.com/drwendyfox)

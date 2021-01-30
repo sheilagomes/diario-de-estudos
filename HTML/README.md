@@ -40,6 +40,29 @@
 ```
 * Existem várias [validações](https://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/Forms/Form_validation) que podem ser incluídas no código em formulários, além de poder exigir o preenchimento de campos específicos em padrões determinados. Alguns padrões básicos são especificados pelo tipo, como `email` ou `url`.
 * Curiosidade extra: as extensões de urls que contêm `?utm...` significam Urchin Tracking Module e são variáveis personalizados do Google Analytics para rastreamento padrão de tráfego. São cinco: fonte da campanha (utm_source), meio da campanha (utm_medium), nome da campanha (utm_campaign), termo da campanha (utm_term) e conteúdo da campanha (utm_content). Os atributos são sempre usado sem parênteses: `https://example.com/?utm_source=facebook&utm_medium=cpc&utm_campaign=spring+sale&utm_term=green+cta&utm_content=lifestyle+image`
+* Um jeito de mostrar informações extras em alguma parte do html que sejam acessíveis ao usuário é usar a tag `detail`:
+```
+<details>
+     <summary>Click Here to get the user details</summary>
+         <table>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Location</th>
+                    <th>Job</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Adam</td>
+                    <td>Huston</td>
+                    <td>UI/UX</td>
+                </tr>
+          </table>
+  </details>
+```
+
+## Artigos
+* [10 useful HTML5 features, you may not be using](https://blog.greenroots.info/10-useful-html5-features-you-may-not-be-using-ckdua7ql300l1m3s1ez7teshc)
 
 ## Referências
 * [MDN HTML elements references](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
