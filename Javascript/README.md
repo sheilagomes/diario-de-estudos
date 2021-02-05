@@ -168,7 +168,7 @@ inputWords.addEventListener('keyup', function(event) {
 ```
 * Um array criado com `const` pode receber valores com `push()`, mas não pode receber o resultado de uma operação com `split()` 
 * É possível interagir com variáveis SASS direto no [Javascript](https://codepen.io/kevinpowell/pen/47a7913feb4cff477b0c9d7b0fe2008a)
-* Coisas que dá pra fazer com um operador spread: copiar um array, combinar arrays, adicionar um item a um array, adicionar uma propriedade a um objeto, usar funções Math(), Spread array as function arguments, passar argumentos ilimitados a uma função, converter um nodeList em um array, desestruturar um objeto e explodir uma string.
+* Coisas que dá pra fazer com um operador spread: copiar um array, combinar arrays, adicionar um item a um array, adicionar uma propriedade a um objeto, usar funções Math(), arrays spread como argumentos de função, passar argumentos ilimitados a uma função, converter um nodeList em um array, desestruturar um objeto e explodir uma string.
 * Como usar o operador spread(...) para unir arrays:
 ```
 const arr1 [1,2,3];
@@ -222,6 +222,18 @@ function makeBetweenFunc(min, max) {
 const teste = makeBetweenFunc(1, 10);
 
 console.log(teste(10)); // true
+```
+* Um método é uma função atribuída como propriedade de um objeto:
+```
+const myMath = {
+    PI: 3.14159,
+    square(num) {
+        return num * num;
+    },
+    cube(num) {
+        return num ** 3;
+    }
+}
 ```
 
 ## Artigos
