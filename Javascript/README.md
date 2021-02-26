@@ -154,6 +154,10 @@ function checkAdult(age) {
   return age >= 18;
 }
 ages.filter(checkAdult); // [32, 33, 40]
+
+function validUserNames(usrArray) {
+    return usrArray.filter(usr => usr.length < 10)
+}
 ```
 * Funções arrow (similar ao lambda do Python) podem ser escritas em uma linha só, com parâmetros separados do corpo da função por `=>`. Se tiverem mais de um parâmetro, eles precisam estar entre parênteses. Se não houver parâmetros, usar `()`:
 `nums.filter(nums => nums % index != 0);`
@@ -235,6 +239,84 @@ const myMath = {
     }
 }
 ```
+* A palavra `this` se refere ao objeto onde está inserida. Se não for usada no contexto de um objeto, ela vai se referir ao objeto `window`, que representa uma janela que contém um elemento DOM; a propriedade `document` aponta para o documento `DOM document` carregado naquela janela.
+* Para capturar erros e devolver de forma diferente da declaração de erro:
+```
+try {
+	console.log("Expressão");
+} catch {
+	console.log("Erro na expressão") // se a parte dentro do try não funcionar
+}
+```
+* Para aplicar uma função sobre cada elemento de um array podemos usar `forEach`:
+```
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+numbers.forEach(function (el) {
+    if (el % 2 === 0) {
+        console.log(el)
+    }
+})
+```
+* Uma opção mais recente para aplicar uma função sobre cada elemento de um array é `for of`:
+```
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (let el of numbers) {
+	console.log(el);
+}
+```
+* A função `map` cria um array com os resultados da aplicação de uma função:
+```
+function cleanNames(el) {
+    return el.map(function(str) {
+        return str.trim();
+    });
+}
+```
+* Arrow functions são um jeito diferente de escrever expressões de função. Se a função não tiver argumentos, basta usar () antes da flecha, se houver mais de um argumento, eles devem estar entre parênteses, e se houver apenas um argumento, não precisa de parênteses:
+```
+const greet = name => {
+    return `Hey ${name}!`;
+};
+```
+* É possível simplificar uma arrow function ainda mais e eliminar chaves e a declaração `return` se a função tiver um retorno implícito e for composta por apenas uma linha:
+`const greet = name => name.toUpperCase();`
+
+* Quando é necessário adicionar event listeners a vários elementos do DOM de uma vez só:
+```
+document.querySelectorAll('.some-class').forEach(item => {
+  item.addEventListener('click', event => {
+    //handle click
+  })
+})
+```
+* Os comandos `setTimeout` e `setInterval` são usados para executar ações depois de um intervalo de tempo. No caso de `setTimeout`, a ação é executada uma vez, no caso de `setInterval`, repetidamente a cada intervalo definido. Para interromper a execução de `setInterval` é preciso usar o comando `clearInterval()`:
+```
+console.log("HELLO!!!...")
+setTimeout(() => {
+    console.log("...are you still there?")
+}, 3000)
+console.log("GOODBYE!!")
+
+const id = setInterval(() => {
+    console.log(Math.random())
+}, 2000);
+
+// clearInterval(id);
+```
+* O método `every` retorna `true` se os elementos de um array passarem na função definida, ou `false` se não passarem. O método `some` é muito similar, mas basta um valor passar na função para ele retornar `true`:
+```
+let grades = [6, 9, 7, 8];
+grades.every(grade => grade > 6.9); // false
+grades.some(grade => grade > 6.9); // true
+```
+* Com o método `reduce` é possível extrair um valor a partir de uma função aplicada a um array:
+```
+let grades = [6, 9, 7, 8];
+let generalAverage = grades.reduce((average, grade) => average + grade)/grades.length;
+
+```
+* Para mostrar um número fixo de decimais depois de um número usamos o método `toFixed(1)` com o número de decimais que queremos.
+* Para arredondar podemos usar `Math.round()`, `Math.ceil()` e `Math.floor`. O primeiro arredonda para baixo ou para cima, dependendo se os decimais estiverem abaixo ou acima  de 0.5, o segundo sempre para cima e o terceiro sempre para baixo.
 
 ## Artigos
 * [Understanding the DOM](https://dev.to/joshcarvel/properly-understanding-the-dom-2cg0)

@@ -311,6 +311,27 @@ body {
   font-size: 1.5em;
 }
 ```
+* A diferença de usar `width: auto` e `width 100%` é que a primeira opção distribui o espaço igualmente sem ultrapassar a largura da tela, enquanto que a segunda, se houver margens definidas, por exemplo, fará aparecer uma barra de rolagem horizontal.
+* Para definir `font-size` é melhor usar `rem`, que normalmente equivale a `16px`. Um jeito de ter mais controle sobre o tamanho de fontes `rem` é definir: 
+```
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2.1rem; /* equivale a 21px */
+}
+```
+
+## Dicas gerais de design
+* Prestar atenção à largura das linhas, o dieal é não passar de 70-75 caracteres, dá até para usar a `ch` como unidade de medida para isso, que equivale à largura do 0 da fonte em questão.
+* Deve haver espaço entre os elementos, para deixar as coisas respirarem.
+* Usar contraste com cores, mesmo que sejam de uma paleta em tons de cinza, ajuda a tornar tudo mais visualmente agradável.
+* Evitar usar texto justificado ajuda a não ter espaços em branco esquisitos.
+* Usar contraste com propriedades de fontes como `font-weight`.
+* Usar `width` e `max-width` é sempre uma boa ideia para ter mais controle sobre o efeito final em diferentes tamanhos de tela.
+* De for preciso declarar uma altura, é melhor usar `min-height`ara evitar surpresas como conteúdo que ultrapassa os limites do elementos em tamanhos de tela diferentes.
+* A escolha entre usar `em` ou `rem` para o `padding` e `margin` de certos elementos pode depender do elemento (para botões é melhor `em`, por ex., porque eles crecse proporcionalmente ao taamnho do texto)
 
 ## Referências
 * [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
