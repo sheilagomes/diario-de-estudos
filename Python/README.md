@@ -56,6 +56,12 @@ user_response = None
 while user_response != "please":
     user_response = input("Ah ah ah, you didn't say the magic word: ")
 ```
+* Para converter uma string em dicionário usamos `eval()`:
+```
+dic2 = eval(str1)
+dic2
+{'taras': 'vaskiv', 'iruna': 'vaskiv'}
+```
 
 ## Bibliotecas
 * [Automação de GUI com Python](https://imasters.com.br/back-end/automacao-de-gui-com-python-exemplo-de-uso-do-pyautogui-2)

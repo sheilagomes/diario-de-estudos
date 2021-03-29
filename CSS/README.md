@@ -332,6 +332,40 @@ body {
 * Usar `width` e `max-width` é sempre uma boa ideia para ter mais controle sobre o efeito final em diferentes tamanhos de tela.
 * De for preciso declarar uma altura, é melhor usar `min-height`ara evitar surpresas como conteúdo que ultrapassa os limites do elementos em tamanhos de tela diferentes.
 * A escolha entre usar `em` ou `rem` para o `padding` e `margin` de certos elementos pode depender do elemento (para botões é melhor `em`, por ex., porque eles crecse proporcionalmente ao taamnho do texto)
+* Uma boa forma de "secar" o código CSS é usar o pseudo-elemento `:is`:
+```
+/* em vez de
+header h1,
+header a,
+header .btn,
+header small) {
+  color: green;
+}, usar:*/
+
+header :is(h1, :a, .btn, small) {
+  color: green;
+}
+
+/* em vez de 
+header p:hover, 
+.card p:hover {
+  color: red;
+} usar: */
+
+:is(header, .card) p:hover {
+  color: red;
+}
+
+/* em vez de 
+.card .title, 
+.card p a) {
+  color: red;
+} usar: */
+
+.card :is(.title, p a) {
+  color: red;
+}
+```
 
 ## Referências
 * [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
